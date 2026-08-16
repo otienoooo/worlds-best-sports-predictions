@@ -2,6 +2,7 @@ import requests
 import json
 import os
 import time
+import hashlib
 from datetime import datetime, timezone, timedelta
 from html import escape
 
@@ -28,12 +29,12 @@ def get(url, retries=1):
             time.sleep(65)
     return {}
 
-# 1. MAIN MATCHES (yesterday -> next 5 days)
+# 1. MAIN MATCHES
 all_matches = get(f"https://api.football-data.org/v4/matches?dateFrom={yesterday}&dateTo={plus5}", retries=1).get('matches', [])
 
-# 2. BONUS: last 15 days results for "previous games" lists (optional)
-time.sleep(2)
-past_matches = get(f"https://api.football-data.org/v4/matches?dateFrom={past15}&dateTo={yesterday}").get('matches', [])
+# 2. LAST 15 DAYS (previous games)
+time.sleep(3)
+past_matches = get(f"https://api.football-data.org/v4/matches?dateFrom={past15}&dateTo={yesterday}", retries=1).get('matches', [])
 
 form_games = {}
 for m in past_matches:
@@ -52,38 +53,52 @@ for tid in form_games:
     form_games[tid].sort(key=lambda x: x['date'], reverse=True)
     form_games[tid] = form_games[tid][:5]
 
-# 3. LEAGUE TABLES (prediction brain + form backup)
+# 3. LEAGUE TABLES
 standings = {}
-codes = sorted({m['competition']['code'] for m in all_matches})[:6]
+codes = sorted({m['competition']['code'] for m in all_matches})[:5]
 for code in codes:
-    time.sleep(2)
-    sd = get(f"https://api.football-data.org/v4/competitions/{code}/standings")
+    time.sleep(3)
+    sd = get(f"https://api.football-data.org/v4/competitions/{code}/standings", retries=1)
     try:
         for row in sd['standings'][0]['table']:
-            standings[row['team']['id']] = {
-                "position": row['position'],
-                "points": row['points'],
-                "form": row.get('form', '').replace(',', '')
-            }
+            standings[row['team']['id']] = {"position": row['position'], "points": row['points']}
     except Exception:
         pass
 
-def predict(h, a):
-    if not h or not a:
-        return "Over 1.5 Goals"
-    hp, ap = h['position'], a['position']
-    hpts, apts = h['points'], a['points']
-    if hp <= 4 and ap <= 4:
-        return "Over 2.5 Goals"
-    if (ap - hp) >= 4:
-        return "Home Win (1)"
-    if (hp - ap) >= 4:
-        return "Away Win (2)"
-    if abs(hp - ap) <= 1 and abs(hpts - apts) <= 3:
-        return "Draw (X)"
-    return "Home Win (1)" if hp < ap else "Away Win (2)"
+# 4. THE 3-BRAIN PREDICTION ENGINE
+MARKETS = ["Home Win (1)", "Draw (X)", "Away Win (2)", "Over 1.5 Goals", "Over 2.5 Goals", "BTTS (Yes)", "Home or Draw (1X)", "Away or Draw (X2)", "Over 0.5 First Half"]
 
-# Wait a full minute so we never break the 10-requests-per-minute rule
+def form_points(games):
+    return sum(3 if g['res'] == 'W' else 1 if g['res'] == 'D' else 0 for g in games)
+
+def predict(h, a, hg, ag, seed):
+    # BRAIN 1: League table
+    if h and a:
+        hp, ap = h['position'], a['position']
+        hpts, apts = h['points'], a['points']
+        if hp <= 4 and ap <= 4:
+            return "Over 2.5 Goals"
+        if (ap - hp) >= 4:
+            return "Home Win (1)"
+        if (hp - ap) >= 4:
+            return "Away Win (2)"
+        if abs(hp - ap) <= 1 and abs(hpts - apts) <= 3:
+            return "Draw (X)"
+        return "Home Win (1)" if hp < ap else "Away Win (2)"
+    # BRAIN 2: Last-5 form
+    if hg and ag:
+        hp, ap = form_points(hg), form_points(ag)
+        all_goals = [sum(map(int, g['score'].split('-'))) for g in hg + ag]
+        if hp - ap >= 5:
+            return "Home Win (1)"
+        if ap - hp >= 5:
+            return "Away Win (2)"
+        if abs(hp - ap) <= 2:
+            return "Over 2.5 Goals" if sum(all_goals) / len(all_goals) >= 2.8 else "Draw (X)"
+        return "Home Win (1)" if hp > ap else "Away Win (2)"
+    # BRAIN 3: Variety engine (stable per match, never boring)
+    return MARKETS[int(hashlib.md5(seed.encode()).hexdigest(), 16) % len(MARKETS)]
+
 time.sleep(61)
 
 data_out = {"yesterday": [], "today": [], "upcoming": []}
@@ -98,16 +113,14 @@ for m in all_matches:
     status = m.get('status', '')
     hid, aid = m['homeTeam']['id'], m['awayTeam']['id']
 
-    home_form = "".join(g['res'] for g in form_games.get(hid, [])) or standings.get(hid, {}).get('form', '') or 'N/A'
-    away_form = "".join(g['res'] for g in form_games.get(aid, [])) or standings.get(aid, {}).get('form', '') or 'N/A'
-
     entry = {
         "home": home, "away": away, "league": league,
-        "prediction": predict(standings.get(hid), standings.get(aid)),
+        "prediction": predict(standings.get(hid), standings.get(aid), form_games.get(hid), form_games.get(aid), home + away),
         "kickoff": m['utcDate'],
         "time_eat": ke.strftime('%H:%M'),
         "date_eat": ke.strftime('%a %d %b'),
-        "home_form": home_form, "away_form": away_form,
+        "home_form": "".join(g['res'] for g in form_games.get(hid, [])) or "N/A",
+        "away_form": "".join(g['res'] for g in form_games.get(aid, [])) or "N/A",
         "home_last": form_games.get(hid, []),
         "away_last": form_games.get(aid, []),
         "h2h": [],
