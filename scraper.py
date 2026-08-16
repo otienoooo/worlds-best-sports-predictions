@@ -15,28 +15,48 @@ headers = {'X-Auth-Token': API_KEY}
 today = datetime.now(EAT).date()
 yesterday = today - timedelta(days=1)
 plus5 = today + timedelta(days=5)
+past15 = today - timedelta(days=15)
 
-# 1. FETCH ALL MATCHES (yesterday -> next 5 days)
-url = f"https://api.football-data.org/v4/matches?dateFrom={yesterday}&dateTo={plus5}"
-r = requests.get(url, headers=headers, timeout=30)
-print("Matches API status:", r.status_code)
-matches = r.json().get('matches', []) if r.status_code == 200 else []
+def get(url):
+    r = requests.get(url, headers=headers, timeout=30)
+    print("GET", r.status_code, url)
+    return r.json() if r.status_code == 200 else {}
 
-# 2. FETCH REAL LEAGUE TABLES (so the bot can compare team strength)
+# 1. WIDE WINDOW: upcoming matches + last 15 days results (for team FORM)
+all_matches = get(f"https://api.football-data.org/v4/matches?dateFrom={past15}&dateTo={plus5}").get('matches', [])
+
+# 2. BUILD LAST-5 FORM FOR EVERY TEAM
+form = {}
+for m in all_matches:
+    if m.get('status') != 'FINISHED':
+        continue
+    ft = m.get('score', {}).get('fullTime') or {}
+    if ft.get('home') is None or ft.get('away') is None:
+        continue
+    hid, aid = m['homeTeam']['id'], m['awayTeam']['id']
+    hn, an = m['homeTeam']['name'], m['awayTeam']['name']
+    hs, aws = ft['home'], ft['away']
+    hres = 'W' if hs > aws else ('D' if hs == aws else 'L')
+    ares = 'W' if aws > hs else ('D' if aws == hs else 'L')
+    form.setdefault(hid, []).append({"date": m['utcDate'], "opp": an, "score": f"{hs}-{aws}", "res": hres})
+    form.setdefault(aid, []).append({"date": m['utcDate'], "opp": hn, "score": f"{aws}-{hs}", "res": ares})
+
+for tid in form:
+    form[tid].sort(key=lambda x: x['date'], reverse=True)
+    form[tid] = form[tid][:5]
+
+# 3. LEAGUE TABLES (for the prediction brain)
 standings = {}
-codes = sorted({m['competition']['code'] for m in matches})[:6]
+codes = sorted({m['competition']['code'] for m in all_matches})[:6]
 for code in codes:
-    time.sleep(1)
-    sr = requests.get(f"https://api.football-data.org/v4/competitions/{code}/standings", headers=headers, timeout=30)
-    print(f"Standings {code}:", sr.status_code)
-    if sr.status_code == 200:
-        try:
-            for row in sr.json()['standings'][0]['table']:
-                standings[row['team']['id']] = {"position": row['position'], "points": row['points']}
-        except Exception as e:
-            print("Standings parse error:", e)
+    time.sleep(2)
+    sd = get(f"https://api.football-data.org/v4/competitions/{code}/standings")
+    try:
+        for row in sd['standings'][0]['table']:
+            standings[row['team']['id']] = {"position": row['position'], "points": row['points']}
+    except Exception:
+        pass
 
-# 3. SMART PREDICTION LOGIC
 def predict(h, a):
     if not h or not a:
         return "Over 1.5 Goals"
@@ -53,8 +73,9 @@ def predict(h, a):
     return "Home Win (1)" if hp < ap else "Away Win (2)"
 
 data_out = {"yesterday": [], "today": [], "upcoming": []}
+h2h_quota = 5  # free API limit: we fetch H2H for today's top 5 matches
 
-for m in matches:
+for m in all_matches:
     home = escape(m.get('homeTeam', {}).get('name', 'TBD'))
     away = escape(m.get('awayTeam', {}).get('name', 'TBD'))
     league = escape(m.get('competition', {}).get('name', ''))
@@ -62,15 +83,32 @@ for m in matches:
     ke = utc.astimezone(EAT)
     status = m.get('status', '')
 
-    prediction = predict(standings.get(m['homeTeam']['id']), standings.get(m['awayTeam']['id']))
-
     entry = {
         "home": home, "away": away, "league": league,
-        "prediction": prediction,
+        "prediction": predict(standings.get(m['homeTeam']['id']), standings.get(m['awayTeam']['id'])),
         "kickoff": m['utcDate'],
         "time_eat": ke.strftime('%H:%M'),
         "date_eat": ke.strftime('%a %d %b'),
+        "home_form": "".join(g['res'] for g in form.get(m['homeTeam']['id'], [])) or "N/A",
+        "away_form": "".join(g['res'] for g in form.get(m['awayTeam']['id'], [])) or "N/A",
+        "home_last": form.get(m['homeTeam']['id'], []),
+        "away_last": form.get(m['awayTeam']['id'], []),
+        "h2h": [],
     }
+
+    # Fetch HEAD-TO-HEAD for today's matches only (free API quota)
+    if h2h_quota > 0 and ke.date() == today and status != 'FINISHED':
+        time.sleep(8)
+        hd = get(f"https://api.football-data.org/v4/matches/{m['id']}/head2head?limit=5")
+        for hm in hd.get('matches', []):
+            ft = hm.get('score', {}).get('fullTime') or {}
+            entry["h2h"].append({
+                "date": hm['utcDate'][:10],
+                "home": escape(hm['homeTeam']['name']),
+                "away": escape(hm['awayTeam']['name']),
+                "score": f"{ft.get('home')}-{ft.get('away')}"
+            })
+        h2h_quota -= 1
 
     if status == 'FINISHED':
         ft = m.get('score', {}).get('fullTime') or {}
@@ -86,7 +124,6 @@ with open('predictions.json', 'w') as f:
     json.dump(data_out, f, indent=2)
 print("Saved:", len(data_out['today']), "today /", len(data_out['upcoming']), "upcoming /", len(data_out['yesterday']), "finished")
 
-# 4. SEND TO TELEGRAM
 lines = ["⚽ <b>WORLD BEST SPORTS PREDICTIONS</b> ⚽", f"📅 {today.strftime('%A %d %B %Y')}", ""]
 for e in data_out['today'][:8]:
     lines.append(f"🕒 {e['time_eat']} EAT | {e['league']}")
