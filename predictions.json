@@ -1,0 +1,24 @@
+{
+    "yesterday": [
+        {
+            "home": "Arsenal",
+            "away": "Chelsea",
+            "prediction": "Home Win",
+            "result": "2-1"
+        }
+    ],
+    "today": [
+        {
+            "home": "Man City",
+            "away": "Liverpool",
+            "prediction": "Home Win"
+        }
+    ],
+    "upcoming": [
+        {
+            "home": "Real Madrid",
+            "away": "Barcelona",
+            "prediction": "Over 2.5 Goals"
+        }
+    ]
+}
