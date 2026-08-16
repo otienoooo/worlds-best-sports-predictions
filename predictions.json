@@ -16,6 +16,21 @@
       "result": "2-1"
     },
     {
+      "home": "Bristol City FC",
+      "away": "Millwall FC",
+      "league": "Championship",
+      "prediction": "Over 2.5 Goals",
+      "kickoff": "2026-08-15T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 15 Aug",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "0-2"
+    },
+    {
       "home": "Stoke City FC",
       "away": "Swansea City AFC",
       "league": "Championship",
@@ -44,21 +59,6 @@
       "away_last": [],
       "h2h": [],
       "result": "1-3"
-    },
-    {
-      "home": "Bristol City FC",
-      "away": "Millwall FC",
-      "league": "Championship",
-      "prediction": "Over 2.5 Goals",
-      "kickoff": "2026-08-15T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sat 15 Aug",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [],
-      "result": "0-2"
     },
     {
       "home": "Middlesbrough FC",
@@ -710,10 +710,10 @@
       "h2h": []
     },
     {
-      "home": "CD Universidad Cat\u00f3lica",
-      "away": "Estudiantes de La Plata",
+      "home": "CAR Independiente del Valle",
+      "away": "CD Tolima",
       "league": "Copa Libertadores",
-      "prediction": "Draw (X)",
+      "prediction": "Over 0.5 First Half",
       "kickoff": "2026-08-19T00:30:00Z",
       "time_eat": "03:30",
       "date_eat": "Wed 19 Aug",
@@ -724,10 +724,10 @@
       "h2h": []
     },
     {
-      "home": "CAR Independiente del Valle",
-      "away": "CD Tolima",
+      "home": "CD Universidad Cat\u00f3lica",
+      "away": "Estudiantes de La Plata",
       "league": "Copa Libertadores",
-      "prediction": "Over 0.5 First Half",
+      "prediction": "Draw (X)",
       "kickoff": "2026-08-19T00:30:00Z",
       "time_eat": "03:30",
       "date_eat": "Wed 19 Aug",
@@ -752,10 +752,10 @@
       "h2h": []
     },
     {
-      "home": "CD Coquimbo Unido",
-      "away": "CA Platense",
+      "home": "Club Cerro Porte\u00f1o",
+      "away": "SE Palmeiras",
       "league": "Copa Libertadores",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 0.5 First Half",
       "kickoff": "2026-08-19T22:00:00Z",
       "time_eat": "01:00",
       "date_eat": "Thu 20 Aug",
@@ -766,10 +766,10 @@
       "h2h": []
     },
     {
-      "home": "Club Cerro Porte\u00f1o",
-      "away": "SE Palmeiras",
+      "home": "CD Coquimbo Unido",
+      "away": "CA Platense",
       "league": "Copa Libertadores",
-      "prediction": "Over 0.5 First Half",
+      "prediction": "Home Win (1)",
       "kickoff": "2026-08-19T22:00:00Z",
       "time_eat": "01:00",
       "date_eat": "Thu 20 Aug",
