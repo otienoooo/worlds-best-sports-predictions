@@ -4,7 +4,7 @@
       "home": "Bolton Wanderers FC",
       "away": "Preston North End FC",
       "league": "Championship",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-15T11:30:00Z",
       "time_eat": "14:30",
       "date_eat": "Sat 15 Aug",
@@ -14,7 +14,7 @@
       "home": "Charlton Athletic FC",
       "away": "Derby County FC",
       "league": "Championship",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-15T14:00:00Z",
       "time_eat": "17:00",
       "date_eat": "Sat 15 Aug",
@@ -24,7 +24,7 @@
       "home": "Norwich City FC",
       "away": "West Bromwich Albion FC",
       "league": "Championship",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-15T14:00:00Z",
       "time_eat": "17:00",
       "date_eat": "Sat 15 Aug",
@@ -34,17 +34,27 @@
       "home": "Middlesbrough FC",
       "away": "Lincoln City FC",
       "league": "Championship",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-15T14:00:00Z",
       "time_eat": "17:00",
       "date_eat": "Sat 15 Aug",
       "result": "2-1"
     },
     {
+      "home": "Stoke City FC",
+      "away": "Swansea City AFC",
+      "league": "Championship",
+      "prediction": "Over 2.5 Goals",
+      "kickoff": "2026-08-15T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 15 Aug",
+      "result": "1-2"
+    },
+    {
       "home": "Portsmouth FC",
       "away": "Queens Park Rangers FC",
       "league": "Championship",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-15T14:00:00Z",
       "time_eat": "17:00",
       "date_eat": "Sat 15 Aug",
@@ -54,27 +64,17 @@
       "home": "Bristol City FC",
       "away": "Millwall FC",
       "league": "Championship",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-15T14:00:00Z",
       "time_eat": "17:00",
       "date_eat": "Sat 15 Aug",
       "result": "0-2"
     },
     {
-      "home": "Stoke City FC",
-      "away": "Swansea City AFC",
-      "league": "Championship",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-08-15T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sat 15 Aug",
-      "result": "1-2"
-    },
-    {
       "home": "Willem II Tilburg",
       "away": "NEC",
       "league": "Eredivisie",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-15T14:30:00Z",
       "time_eat": "17:30",
       "date_eat": "Sat 15 Aug",
@@ -84,7 +84,7 @@
       "home": "FC Alverca",
       "away": "CF Estrela da Amadora",
       "league": "Primeira Liga",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-15T14:30:00Z",
       "time_eat": "17:30",
       "date_eat": "Sat 15 Aug",
@@ -94,7 +94,7 @@
       "home": "Sheffield United FC",
       "away": "Birmingham City FC",
       "league": "Championship",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-15T16:30:00Z",
       "time_eat": "19:30",
       "date_eat": "Sat 15 Aug",
@@ -104,7 +104,7 @@
       "home": "FC Utrecht",
       "away": "AZ",
       "league": "Eredivisie",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-15T16:45:00Z",
       "time_eat": "19:45",
       "date_eat": "Sat 15 Aug",
@@ -114,7 +114,7 @@
       "home": "Acad\u00e9mico de Viseu FC",
       "away": "CD Santa Clara",
       "league": "Primeira Liga",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-15T17:00:00Z",
       "time_eat": "20:00",
       "date_eat": "Sat 15 Aug",
@@ -134,7 +134,7 @@
       "home": "SBV Excelsior",
       "away": "PSV",
       "league": "Eredivisie",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-15T18:00:00Z",
       "time_eat": "21:00",
       "date_eat": "Sat 15 Aug",
@@ -154,11 +154,21 @@
       "home": "Fluminense FC",
       "away": "SE Palmeiras",
       "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-15T19:30:00Z",
       "time_eat": "22:30",
       "date_eat": "Sat 15 Aug",
       "result": "3-2"
+    },
+    {
+      "home": "Rio Ave FC",
+      "away": "FC Porto",
+      "league": "Primeira Liga",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-08-15T19:30:00Z",
+      "time_eat": "22:30",
+      "date_eat": "Sat 15 Aug",
+      "result": "0-2"
     },
     {
       "home": "Sevilla FC",
@@ -169,16 +179,6 @@
       "time_eat": "22:30",
       "date_eat": "Sat 15 Aug",
       "result": "2-1"
-    },
-    {
-      "home": "Rio Ave FC",
-      "away": "FC Porto",
-      "league": "Primeira Liga",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-08-15T19:30:00Z",
-      "time_eat": "22:30",
-      "date_eat": "Sat 15 Aug",
-      "result": "0-2"
     }
   ],
   "today": [
@@ -186,7 +186,7 @@
       "home": "ADO Den Haag",
       "away": "FC Groningen",
       "league": "Eredivisie",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-16T10:15:00Z",
       "time_eat": "13:15",
       "date_eat": "Sun 16 Aug"
@@ -195,7 +195,7 @@
       "home": "FC Twente &#x27;65",
       "away": "PEC Zwolle",
       "league": "Eredivisie",
-      "prediction": "Home Win (1)",
+      "prediction": "Draw (X)",
       "kickoff": "2026-08-16T12:30:00Z",
       "time_eat": "15:30",
       "date_eat": "Sun 16 Aug"
@@ -204,7 +204,7 @@
       "home": "Feyenoord Rotterdam",
       "away": "Go Ahead Eagles",
       "league": "Eredivisie",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-16T12:30:00Z",
       "time_eat": "15:30",
       "date_eat": "Sun 16 Aug"
@@ -213,7 +213,7 @@
       "home": "Watford FC",
       "away": "Southampton FC",
       "league": "Championship",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-16T12:30:00Z",
       "time_eat": "15:30",
       "date_eat": "Sun 16 Aug"
@@ -222,7 +222,7 @@
       "home": "Chapecoense AF",
       "away": "EC Bahia",
       "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-16T14:00:00Z",
       "time_eat": "17:00",
       "date_eat": "Sun 16 Aug"
@@ -249,7 +249,7 @@
       "home": "Burnley FC",
       "away": "West Ham United FC",
       "league": "Championship",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-16T15:00:00Z",
       "time_eat": "18:00",
       "date_eat": "Sun 16 Aug"
@@ -258,7 +258,7 @@
       "home": "Real Racing Club de Santander",
       "away": "Villarreal CF",
       "league": "Primera Division",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-16T15:00:00Z",
       "time_eat": "18:00",
       "date_eat": "Sun 16 Aug"
@@ -267,7 +267,7 @@
       "home": "RCD Espanyol de Barcelona",
       "away": "Levante UD",
       "league": "Primera Division",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-16T17:00:00Z",
       "time_eat": "20:00",
       "date_eat": "Sun 16 Aug"
@@ -285,7 +285,7 @@
       "home": "CR Vasco da Gama",
       "away": "Santos FC",
       "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
+      "prediction": "Draw (X)",
       "kickoff": "2026-08-16T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Sun 16 Aug"
@@ -303,7 +303,7 @@
       "home": "Sporting Clube de Braga",
       "away": "Gil Vicente FC",
       "league": "Primeira Liga",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-16T19:30:00Z",
       "time_eat": "22:30",
       "date_eat": "Sun 16 Aug"
@@ -312,7 +312,7 @@
       "home": "FC Famalic\u00e3o",
       "away": "CS Mar\u00edtimo",
       "league": "Primeira Liga",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-16T19:30:00Z",
       "time_eat": "22:30",
       "date_eat": "Sun 16 Aug"
@@ -323,7 +323,7 @@
       "home": "Mirassol FC",
       "away": "CR Flamengo",
       "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-16T21:30:00Z",
       "time_eat": "00:30",
       "date_eat": "Mon 17 Aug"
@@ -332,7 +332,7 @@
       "home": "EC Vit\u00f3ria",
       "away": "Botafogo FR",
       "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-16T21:30:00Z",
       "time_eat": "00:30",
       "date_eat": "Mon 17 Aug"
@@ -341,7 +341,7 @@
       "home": "SC Corinthians Paulista",
       "away": "Cruzeiro EC",
       "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-16T22:30:00Z",
       "time_eat": "01:30",
       "date_eat": "Mon 17 Aug"
@@ -350,7 +350,7 @@
       "home": "Cardiff City FC",
       "away": "Wrexham AFC",
       "league": "Championship",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-17T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Mon 17 Aug"
@@ -359,7 +359,7 @@
       "home": "RC Deportivo La Coru\u00f1a",
       "away": "Elche CF",
       "league": "Primera Division",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-17T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Mon 17 Aug"
@@ -368,7 +368,7 @@
       "home": "Casa Pia AC",
       "away": "Sport Lisboa e Benfica",
       "league": "Primeira Liga",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-17T19:15:00Z",
       "time_eat": "22:15",
       "date_eat": "Mon 17 Aug"
@@ -386,7 +386,7 @@
       "home": "CS Independiente Rivadavia",
       "away": "Fluminense FC",
       "league": "Copa Libertadores",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 1.5 Goals",
       "kickoff": "2026-08-18T22:00:00Z",
       "time_eat": "01:00",
       "date_eat": "Wed 19 Aug"
@@ -395,7 +395,7 @@
       "home": "CAR Independiente del Valle",
       "away": "CD Tolima",
       "league": "Copa Libertadores",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 1.5 Goals",
       "kickoff": "2026-08-19T00:30:00Z",
       "time_eat": "03:30",
       "date_eat": "Wed 19 Aug"
@@ -404,7 +404,7 @@
       "home": "CD Universidad Cat\u00f3lica",
       "away": "Estudiantes de La Plata",
       "league": "Copa Libertadores",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 1.5 Goals",
       "kickoff": "2026-08-19T00:30:00Z",
       "time_eat": "03:30",
       "date_eat": "Wed 19 Aug"
@@ -413,7 +413,7 @@
       "home": "Club Atl\u00e9tico de Madrid",
       "away": "M\u00e1laga CF",
       "league": "Primera Division",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-08-19T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Wed 19 Aug"
@@ -422,7 +422,7 @@
       "home": "Club Cerro Porte\u00f1o",
       "away": "SE Palmeiras",
       "league": "Copa Libertadores",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 1.5 Goals",
       "kickoff": "2026-08-19T22:00:00Z",
       "time_eat": "01:00",
       "date_eat": "Thu 20 Aug"
@@ -431,7 +431,7 @@
       "home": "CD Coquimbo Unido",
       "away": "CA Platense",
       "league": "Copa Libertadores",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 1.5 Goals",
       "kickoff": "2026-08-19T22:00:00Z",
       "time_eat": "01:00",
       "date_eat": "Thu 20 Aug"
@@ -449,7 +449,7 @@
       "home": "Rayo Vallecano de Madrid",
       "away": "Deportivo Alav\u00e9s",
       "league": "Primera Division",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-20T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Thu 20 Aug"
@@ -458,7 +458,7 @@
       "home": "LDU de Quito",
       "away": "Mirassol FC",
       "league": "Copa Libertadores",
-      "prediction": "Home Win (1)",
+      "prediction": "Over 1.5 Goals",
       "kickoff": "2026-08-20T22:00:00Z",
       "time_eat": "01:00",
       "date_eat": "Fri 21 Aug"
