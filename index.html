@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Best Sports Predictions</title>
+    <style>
+        :root { --bg: #0b0f19; --card: #151a2d; --gold: #d4af37; --text: #f3f4f6; --green: #10b981; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        header { text-align: center; padding: 20px 0; border-bottom: 2px solid var(--gold); margin-bottom: 30px; }
+        h1 { color: var(--gold); font-size: 2.2rem; margin: 0; letter-spacing: 2px; }
+        .tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+        .tab { padding: 10px 20px; background: var(--card); border: 1px solid #333; cursor: pointer; border-radius: 5px; color: white; }
+        .tab.active { background: var(--gold); color: black; font-weight: bold; }
+        .match-card { background: var(--card); padding: 20px; border-radius: 8px; margin-bottom: 15px; border-left: 4px solid var(--gold); display: flex; justify-content: space-between; align-items: center; }
+        .match-info h3 { margin: 0 0 5px 0; }
+        .match-info p { margin: 0; color: #9ca3af; font-size: 0.9rem; }
+        .prediction { font-weight: bold; color: var(--green); font-size: 1.2rem; text-align: right; }
+        .vip-section { background: linear-gradient(135deg, #1a233a, #0f172a); border: 2px solid var(--gold); padding: 30px; border-radius: 12px; text-align: center; margin: 20px 0; }
+        .btn-pay { background: var(--gold); color: black; padding: 15px 30px; border: none; border-radius: 5px; font-weight: bold; font-size: 1.1rem; cursor: pointer; margin-top: 10px; }
+        input { padding: 12px; width: 80%; max-width: 300px; border-radius: 5px; border: 1px solid #444; background: #222; color: white; }
+        footer { text-align: center; margin-top: 50px; color: #6b7280; font-size: 0.8rem; padding: 20px; border-top: 1px solid #333; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WORLD BEST SPORTS PREDICTIONS</h1>
+            <p>Data-Driven Analytics & Premium VIP Insights</p>
+        </header>
+
+        <div class="tabs">
+            <div class="tab active" onclick="showTab('today')">Today</div>
+            <div class="tab" onclick="showTab('upcoming')">Next 5 Days</div>
+            <div class="tab" onclick="showTab('yesterday')">Yesterday Results</div>
+            <div class="tab" onclick="showTab('vip')" style="margin-left:auto; background:var(--gold); color:black;">👑 VIP Access</div>
+        </div>
+
+        <div id="predictions-container">Loading predictions...</div>
+
+        <div id="vip-section" style="display:none;">
+            <div class="vip-section">
+                <h2>👑 STANDARD VIP (KES 500)</h2>
+                <p>Daily high-confidence single match predictions.</p>
+                <input type="tel" id="phone-vip" placeholder="M-Pesa Number (07XX...)">
+                <br>
+                <button class="btn-pay" onclick="pay(500, 'Standard VIP')">Pay KES 500 via M-Pesa</button>
+            </div>
+            <div class="vip-section">
+                <h2>🏆 JACKPOT VIP (KES 1,000)</h2>
+                <p>Exclusive 17-game Jackpot analysis for all Kenyan markets.</p>
+                <input type="tel" id="phone-jackpot" placeholder="M-Pesa Number (07XX...)">
+                <br>
+                <button class="btn-pay" onclick="pay(1000, 'Jackpot VIP')">Pay KES 1,000 via M-Pesa</button>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>18+ Only.</strong> Please gamble responsibly. Predictions are for entertainment and informational purposes only. World Best Sports Predictions is an analytics platform and is NOT a licensed bookmaker. We do not accept bets.</p>
+        </footer>
+    </div>
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="thesportspredictions" data-description="Support the analytics!" data-color="#FFDD00" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+    <script>
+        let DATA = {yesterday: [], today: [], upcoming: []};
+        let currentTab = 'today';
+
+        function fmtKickoff(iso) {
+            if (!iso) return '';
+            const d = new Date(iso);
+            return d.toLocaleString('en-KE', {weekday:'short', day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit'});
+        }
+
+        async function loadPredictions() {
+            try {
+                const res = await fetch('/predictions.json');
+                DATA = await res.json();
+            } catch (e) {}
+            renderPredictions(currentTab);
+        }
+
+        function showTab(type) {
+            currentTab = type;
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+            renderPredictions(type);
+        }
+
+        function renderPredictions(type) {
+            const container = document.getElementById('predictions-container');
+            const vip = document.getElementById('vip-section');
+            if (type === 'vip') { vip.style.display = 'block'; container.style.display = 'none'; return; }
+            vip.style.display = 'none'; container.style.display = 'block';
+            const matches = DATA[type] || [];
+            if (matches.length === 0) { container.innerHTML = '<p>No matches for this day yet. The bot refreshes every morning at 9AM.</p>'; return; }
+            container.innerHTML = matches.map(m => `
+                <div class="match-card">
+                    <div class="match-info">
+                        <h3>${m.home} vs ${m.away}</h3>
+                        <p>${m.league || ''} • ${type === 'yesterday' ? 'Finished' : fmtKickoff(m.kickoff)}</p>
+                    </div>
+                    <div class="prediction">${type === 'yesterday' ? (m.result || '-') : m.prediction}</div>
+                </div>`).join('');
+        }
+
+        async function pay(amount, package_type) {
+            const phoneId = amount === 500 ? 'phone-vip' : 'phone-jackpot';
+            const phone = document.getElementById(phoneId).value;
+            if (!phone) return alert('Please enter your M-Pesa number');
+            const res = await fetch('/.netlify/functions/pay', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ phone, amount, package_type })
+            });
+            const data = await res.json();
+            alert(data.message);
+        }
+
+        loadPredictions();
+    </script>
+</body>
+</html>
