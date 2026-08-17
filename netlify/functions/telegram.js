@@ -16,32 +16,17 @@ exports.handler = async (event) => {
         });
     }
 
+    const VIP_LINK = 'https://selar.com/9m75rf1u40';
+    const JACKPOT_LINK = 'https://selar.com/87s04q9q81';
+
     if (text === '/start') {
-        await send("⚽ <b>WORLD BEST SPORTS PREDICTIONS</b>\n\n💰 Pay via M-Pesa right here:\n/vip 0712345678 → Standard VIP (KES 500)\n/jackpot 0712345678 → Jackpot VIP (KES 1,000)\n\n(Replace with your real M-Pesa number)");
-        return { statusCode: 200, body: 'ok' };
+        await send("⚽ <b>WORLD BEST SPORTS PREDICTIONS</b>\n\n💰 Get VIP access:\n/vip → Standard VIP (KES 500)\n/jackpot → Jackpot VIP (KES 1,000)\n\nPay via M-Pesa & get instant access!");
+    } else if (text === '/vip') {
+        await send(`👑 <b>STANDARD VIP — KES 500</b>\nPay via M-Pesa here:\n${VIP_LINK}\n\n✅ Your VIP access link is delivered instantly after payment.`);
+    } else if (text === '/jackpot') {
+        await send(`🏆 <b>JACKPOT VIP — KES 1,000</b>\nPay via M-Pesa here:\n${JACKPOT_LINK}\n\n✅ Your Jackpot access link is delivered instantly after payment.`);
+    } else {
+        await send("Type /start to see VIP packages.");
     }
-
-    const order = text.match(/^\/(vip|jackpot)\s+((?:\+?254|0)(?:7|1)\d{8})$/i);
-    if (order) {
-        const pkg = order[1].toLowerCase();
-        const phone = order[2];
-        const amount = pkg === 'vip' ? 500 : 1000;
-        const reference = `TG${chatId}-${pkg}`;
-
-        const r = await fetch('https://payment.intasend.com/api/v1/payment/mpesa/stk-push/v1', {
-            method: 'POST',
-            headers: { 'Authorization': `Bearer ${process.env.INTASEND_PRIVATE_KEY}`, 'Content-Type': 'application/json' },
-            body: JSON.stringify({ amount: amount, phone_number: phone, reference: reference, comment: reference })
-        });
-
-        if (r.status === 200) {
-            await send(`📲 <b>M-Pesa prompt sent to ${phone}!</b>\nEnter your PIN for KES ${amount}.\nYour VIP access link will arrive here automatically after payment. ✅`);
-        } else {
-            await send("❌ Payment system busy. Please try again in a minute.");
-        }
-        return { statusCode: 200, body: 'ok' };
-    }
-
-    await send("Type /start to see payment instructions.");
     return { statusCode: 200, body: 'ok' };
 };
