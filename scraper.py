@@ -72,7 +72,6 @@ def form_points(games):
     return sum(3 if g['res'] == 'W' else 1 if g['res'] == 'D' else 0 for g in games)
 
 def predict(h, a, hg, ag, seed):
-    # BRAIN 1: League table
     if h and a:
         hp, ap = h['position'], a['position']
         hpts, apts = h['points'], a['points']
@@ -85,7 +84,6 @@ def predict(h, a, hg, ag, seed):
         if abs(hp - ap) <= 1 and abs(hpts - apts) <= 3:
             return "Draw (X)"
         return "Home Win (1)" if hp < ap else "Away Win (2)"
-    # BRAIN 2: Last-5 form
     if hg and ag:
         hp, ap = form_points(hg), form_points(ag)
         all_goals = [sum(map(int, g['score'].split('-'))) for g in hg + ag]
@@ -96,7 +94,6 @@ def predict(h, a, hg, ag, seed):
         if abs(hp - ap) <= 2:
             return "Over 2.5 Goals" if sum(all_goals) / len(all_goals) >= 2.8 else "Draw (X)"
         return "Home Win (1)" if hp > ap else "Away Win (2)"
-    # BRAIN 3: Variety engine (stable per match, never boring)
     return MARKETS[int(hashlib.md5(seed.encode()).hexdigest(), 16) % len(MARKETS)]
 
 time.sleep(61)
@@ -162,8 +159,9 @@ if data_out['today']:
         lines.append("━━━━━━━━━━━━")
 else:
     lines.append("No major matches today. Check the 5-day board on the website!")
-lines.append("👑 Full 5-day board + Jackpot VIP:")
-lines.append("🔗 buymeacoffee.com/thesportspredictions")
+lines.append("👑 VIP (KES 500): https://selar.com/9m75rf1u40")
+lines.append("🏆 Jackpot VIP (KES 1,000): https://selar.com/87s04q9q81")
+lines.append("🤖 Bot: https://t.me/worldsbestsportspredictionsBot")
 
 resp = requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage", json={
     "chat_id": CHAT_ID, "text": "\n".join(lines), "parse_mode": "HTML"
