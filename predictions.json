@@ -1,37 +1,20 @@
 {
   "yesterday": [
     {
-      "home": "CR Flamengo",
-      "away": "Cruzeiro EC",
+      "home": "SC Corinthians Paulista",
+      "away": "CA Rosario Central",
       "league": "Copa Libertadores",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-08-20T00:30:00Z",
+      "prediction": "Away or Draw (X2)",
+      "kickoff": "2026-08-21T00:30:00Z",
       "time_eat": "03:30",
-      "date_eat": "Thu 20 Aug",
+      "date_eat": "Fri 21 Aug",
       "home_form": "N/A",
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
       "h2h": [],
-      "result": "2-1"
+      "result": "1-0"
     },
-    {
-      "home": "Rayo Vallecano de Madrid",
-      "away": "Deportivo Alav\u00e9s",
-      "league": "Primera Division",
-      "prediction": "Over 2.5 Goals",
-      "kickoff": "2026-08-20T19:00:00Z",
-      "time_eat": "22:00",
-      "date_eat": "Thu 20 Aug",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [],
-      "result": "1-1"
-    }
-  ],
-  "today": [
     {
       "home": "Olympique de Marseille",
       "away": "RC Strasbourg Alsace",
@@ -44,38 +27,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": [
-        {
-          "date": "2026-02-14",
-          "home": "Olympique de Marseille",
-          "away": "RC Strasbourg Alsace",
-          "score": "2-2"
-        },
-        {
-          "date": "2025-09-26",
-          "home": "RC Strasbourg Alsace",
-          "away": "Olympique de Marseille",
-          "score": "1-2"
-        },
-        {
-          "date": "2025-01-19",
-          "home": "Olympique de Marseille",
-          "away": "RC Strasbourg Alsace",
-          "score": "1-1"
-        },
-        {
-          "date": "2024-09-29",
-          "home": "RC Strasbourg Alsace",
-          "away": "Olympique de Marseille",
-          "score": "1-0"
-        },
-        {
-          "date": "2024-01-12",
-          "home": "Olympique de Marseille",
-          "away": "RC Strasbourg Alsace",
-          "score": "1-1"
-        }
-      ]
+      "h2h": [],
+      "result": "4-0"
     },
     {
       "home": "Arsenal FC",
@@ -89,7 +42,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "3-0"
     },
     {
       "home": "Real Betis Balompi\u00e9",
@@ -103,41 +57,11 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": [
-        {
-          "date": "2026-05-09",
-          "home": "Real Sociedad de F\u00fatbol",
-          "away": "Real Betis Balompi\u00e9",
-          "score": "2-2"
-        },
-        {
-          "date": "2025-09-19",
-          "home": "Real Betis Balompi\u00e9",
-          "away": "Real Sociedad de F\u00fatbol",
-          "score": "3-1"
-        },
-        {
-          "date": "2025-02-16",
-          "home": "Real Betis Balompi\u00e9",
-          "away": "Real Sociedad de F\u00fatbol",
-          "score": "3-0"
-        },
-        {
-          "date": "2024-12-01",
-          "home": "Real Sociedad de F\u00fatbol",
-          "away": "Real Betis Balompi\u00e9",
-          "score": "2-0"
-        },
-        {
-          "date": "2024-05-19",
-          "home": "Real Betis Balompi\u00e9",
-          "away": "Real Sociedad de F\u00fatbol",
-          "score": "0-2"
-        }
-      ]
+      "h2h": [],
+      "result": "1-0"
     }
   ],
-  "upcoming": [
+  "today": [
     {
       "home": "NEC",
       "away": "SBV Excelsior",
@@ -145,6 +69,51 @@
       "prediction": "Draw (X)",
       "kickoff": "2026-08-22T00:00:00Z",
       "time_eat": "03:00",
+      "date_eat": "Sat 22 Aug",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [
+        {
+          "date": "2026-04-04",
+          "home": "SBV Excelsior",
+          "away": "NEC",
+          "score": "0-2"
+        },
+        {
+          "date": "2025-08-09",
+          "home": "NEC",
+          "away": "SBV Excelsior",
+          "score": "5-0"
+        },
+        {
+          "date": "2024-05-06",
+          "home": "SBV Excelsior",
+          "away": "NEC",
+          "score": "0-3"
+        },
+        {
+          "date": "2023-08-13",
+          "home": "NEC",
+          "away": "SBV Excelsior",
+          "score": "3-4"
+        },
+        {
+          "date": "2023-02-19",
+          "home": "SBV Excelsior",
+          "away": "NEC",
+          "score": "0-3"
+        }
+      ]
+    },
+    {
+      "home": "Hull City AFC",
+      "away": "Manchester United FC",
+      "league": "Premier League",
+      "prediction": "BTTS (Yes)",
+      "kickoff": "2026-08-22T11:30:00Z",
+      "time_eat": "14:30",
       "date_eat": "Sat 22 Aug",
       "home_form": "N/A",
       "away_form": "N/A",
@@ -164,7 +133,83 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-04-06",
+          "home": "Millwall FC",
+          "away": "Norwich City FC",
+          "score": "1-2"
+        },
+        {
+          "date": "2025-08-09",
+          "home": "Norwich City FC",
+          "away": "Millwall FC",
+          "score": "1-2"
+        },
+        {
+          "date": "2025-04-21",
+          "home": "Millwall FC",
+          "away": "Norwich City FC",
+          "score": "3-1"
+        },
+        {
+          "date": "2024-12-26",
+          "home": "Norwich City FC",
+          "away": "Millwall FC",
+          "score": "2-1"
+        },
+        {
+          "date": "2023-12-29",
+          "home": "Millwall FC",
+          "away": "Norwich City FC",
+          "score": "1-0"
+        }
+      ]
+    },
+    {
+      "home": "Birmingham City FC",
+      "away": "Bristol City FC",
+      "league": "Championship",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-08-22T11:30:00Z",
+      "time_eat": "14:30",
+      "date_eat": "Sat 22 Aug",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [
+        {
+          "date": "2026-04-25",
+          "home": "Birmingham City FC",
+          "away": "Bristol City FC",
+          "score": "2-1"
+        },
+        {
+          "date": "2025-10-25",
+          "home": "Bristol City FC",
+          "away": "Birmingham City FC",
+          "score": "1-0"
+        },
+        {
+          "date": "2023-12-29",
+          "home": "Birmingham City FC",
+          "away": "Bristol City FC",
+          "score": "0-0"
+        },
+        {
+          "date": "2023-08-19",
+          "home": "Bristol City FC",
+          "away": "Birmingham City FC",
+          "score": "0-2"
+        },
+        {
+          "date": "2023-01-14",
+          "home": "Bristol City FC",
+          "away": "Birmingham City FC",
+          "score": "4-2"
+        }
+      ]
     },
     {
       "home": "Lincoln City FC",
@@ -181,66 +226,10 @@
       "h2h": []
     },
     {
-      "home": "Hull City AFC",
-      "away": "Manchester United FC",
+      "home": "Nottingham Forest FC",
+      "away": "Leeds United FC",
       "league": "Premier League",
       "prediction": "BTTS (Yes)",
-      "kickoff": "2026-08-22T11:30:00Z",
-      "time_eat": "14:30",
-      "date_eat": "Sat 22 Aug",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Birmingham City FC",
-      "away": "Bristol City FC",
-      "league": "Championship",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-08-22T11:30:00Z",
-      "time_eat": "14:30",
-      "date_eat": "Sat 22 Aug",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Southampton FC",
-      "away": "Stoke City FC",
-      "league": "Championship",
-      "prediction": "Draw (X)",
-      "kickoff": "2026-08-22T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sat 22 Aug",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Ipswich Town FC",
-      "away": "Sunderland AFC",
-      "league": "Premier League",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-08-22T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sat 22 Aug",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Preston North End FC",
-      "away": "Wolverhampton Wanderers FC",
-      "league": "Championship",
-      "prediction": "Away Win (2)",
       "kickoff": "2026-08-22T14:00:00Z",
       "time_eat": "17:00",
       "date_eat": "Sat 22 Aug",
@@ -265,6 +254,48 @@
       "h2h": []
     },
     {
+      "home": "Blackburn Rovers FC",
+      "away": "Middlesbrough FC",
+      "league": "Championship",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-08-22T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 22 Aug",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Southampton FC",
+      "away": "Stoke City FC",
+      "league": "Championship",
+      "prediction": "Draw (X)",
+      "kickoff": "2026-08-22T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 22 Aug",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Preston North End FC",
+      "away": "Wolverhampton Wanderers FC",
+      "league": "Championship",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-08-22T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 22 Aug",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
       "home": "Everton FC",
       "away": "Crystal Palace FC",
       "league": "Premier League",
@@ -279,8 +310,22 @@
       "h2h": []
     },
     {
-      "home": "Blackburn Rovers FC",
-      "away": "Middlesbrough FC",
+      "home": "Ipswich Town FC",
+      "away": "Sunderland AFC",
+      "league": "Premier League",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-08-22T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 22 Aug",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "West Ham United FC",
+      "away": "Charlton Athletic FC",
       "league": "Championship",
       "prediction": "Away Win (2)",
       "kickoff": "2026-08-22T14:00:00Z",
@@ -321,36 +366,8 @@
       "h2h": []
     },
     {
-      "home": "Nottingham Forest FC",
-      "away": "Leeds United FC",
-      "league": "Premier League",
-      "prediction": "BTTS (Yes)",
-      "kickoff": "2026-08-22T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sat 22 Aug",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
       "home": "Wrexham AFC",
       "away": "Watford FC",
-      "league": "Championship",
-      "prediction": "Away Win (2)",
-      "kickoff": "2026-08-22T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sat 22 Aug",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "West Ham United FC",
-      "away": "Charlton Athletic FC",
       "league": "Championship",
       "prediction": "Away Win (2)",
       "kickoff": "2026-08-22T14:00:00Z",
@@ -419,6 +436,20 @@
       "h2h": []
     },
     {
+      "home": "Brentford FC",
+      "away": "Tottenham Hotspur FC",
+      "league": "Premier League",
+      "prediction": "Away or Draw (X2)",
+      "kickoff": "2026-08-22T16:30:00Z",
+      "time_eat": "19:30",
+      "date_eat": "Sat 22 Aug",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
       "home": "Udinese Calcio",
       "away": "Como 1907",
       "league": "Serie A",
@@ -437,20 +468,6 @@
       "away": "AC Monza",
       "league": "Serie A",
       "prediction": "Over 2.5 Goals",
-      "kickoff": "2026-08-22T16:30:00Z",
-      "time_eat": "19:30",
-      "date_eat": "Sat 22 Aug",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Brentford FC",
-      "away": "Tottenham Hotspur FC",
-      "league": "Premier League",
-      "prediction": "Away or Draw (X2)",
       "kickoff": "2026-08-22T16:30:00Z",
       "time_eat": "19:30",
       "date_eat": "Sat 22 Aug",
@@ -641,7 +658,9 @@
       "home_last": [],
       "away_last": [],
       "h2h": []
-    },
+    }
+  ],
+  "upcoming": [
     {
       "home": "SC Internacional",
       "away": "CA Mineiro",
@@ -713,10 +732,10 @@
       "h2h": []
     },
     {
-      "home": "Manchester City FC",
-      "away": "AFC Bournemouth",
+      "home": "Brighton &amp; Hove Albion FC",
+      "away": "Aston Villa FC",
       "league": "Premier League",
-      "prediction": "Draw (X)",
+      "prediction": "BTTS (Yes)",
       "kickoff": "2026-08-23T13:00:00Z",
       "time_eat": "16:00",
       "date_eat": "Sun 23 Aug",
@@ -741,10 +760,10 @@
       "h2h": []
     },
     {
-      "home": "Brighton &amp; Hove Albion FC",
-      "away": "Aston Villa FC",
+      "home": "Manchester City FC",
+      "away": "AFC Bournemouth",
       "league": "Premier League",
-      "prediction": "BTTS (Yes)",
+      "prediction": "Draw (X)",
       "kickoff": "2026-08-23T13:00:00Z",
       "time_eat": "16:00",
       "date_eat": "Sun 23 Aug",
@@ -923,10 +942,10 @@
       "h2h": []
     },
     {
-      "home": "EC Vit\u00f3ria",
-      "away": "EC Bahia",
+      "home": "RB Bragantino",
+      "away": "Gr\u00eamio FBPA",
       "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Away Win (2)",
+      "prediction": "Home Win (1)",
       "kickoff": "2026-08-23T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Sun 23 Aug",
@@ -937,10 +956,10 @@
       "h2h": []
     },
     {
-      "home": "RB Bragantino",
-      "away": "Gr\u00eamio FBPA",
+      "home": "EC Vit\u00f3ria",
+      "away": "EC Bahia",
       "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-23T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Sun 23 Aug",
@@ -993,10 +1012,10 @@
       "h2h": []
     },
     {
-      "home": "Santos FC",
-      "away": "Mirassol FC",
+      "home": "Chapecoense AF",
+      "away": "S\u00e3o Paulo FC",
       "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-08-23T21:30:00Z",
       "time_eat": "00:30",
       "date_eat": "Mon 24 Aug",
@@ -1007,10 +1026,10 @@
       "h2h": []
     },
     {
-      "home": "Chapecoense AF",
-      "away": "S\u00e3o Paulo FC",
+      "home": "Santos FC",
+      "away": "Mirassol FC",
       "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Away Win (2)",
+      "prediction": "Home Win (1)",
       "kickoff": "2026-08-23T21:30:00Z",
       "time_eat": "00:30",
       "date_eat": "Mon 24 Aug",
@@ -1140,6 +1159,34 @@
       "kickoff": "2026-08-25T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Tue 25 Aug",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "CAR Independiente del Valle",
+      "away": "CD Tolima",
+      "league": "Copa Libertadores",
+      "prediction": "Over 0.5 First Half",
+      "kickoff": "2026-08-26T00:30:00Z",
+      "time_eat": "03:30",
+      "date_eat": "Wed 26 Aug",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Real Madrid CF",
+      "away": "Real Sociedad de F\u00fatbol",
+      "league": "Primera Division",
+      "prediction": "BTTS (Yes)",
+      "kickoff": "2026-08-26T19:00:00Z",
+      "time_eat": "22:00",
+      "date_eat": "Wed 26 Aug",
       "home_form": "N/A",
       "away_form": "N/A",
       "home_last": [],
