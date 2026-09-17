@@ -1,80 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>World Best Sports Predictions</title>
-<style>
-:root { --bg:#0b0f19; --card:#151a2d; --gold:#d4af37; --text:#f3f4f6; --green:#10b981; }
-body { font-family:'Segoe UI',Tahoma,sans-serif; background:var(--bg); color:var(--text); margin:0; padding:20px; }
-.container { max-width:1000px; margin:0 auto; }
-header { text-align:center; padding:20px 0; border-bottom:2px solid var(--gold); margin-bottom:20px; }
-h1 { color:var(--gold); font-size:2.2rem; margin:0; letter-spacing:2px; }
-.btn-telegram { display:inline-block; margin-top:12px; background:#229ED9; color:white; padding:12px 25px; border-radius:5px; text-decoration:none; font-weight:bold; }
-.tabs { display:flex; gap:10px; margin-bottom:20px; flex-wrap:wrap; }
-.tab { padding:10px 20px; background:var(--card); border:1px solid #333; cursor:pointer; border-radius:5px; color:white; }
-.tab.active { background:var(--gold); color:black; font-weight:bold; }
-.match-card { background:var(--card); padding:20px; border-radius:8px; margin-bottom:15px; border-left:4px solid var(--gold); }
-.top-row { display:flex; justify-content:space-between; align-items:center; cursor:pointer; }
-.match-info h3 { margin:0 0 5px 0; }
-.match-info p { margin:0; color:#9ca3af; font-size:0.9rem; }
-.prediction { font-weight:bold; color:var(--green); font-size:1.2rem; text-align:right; }
-.arrow { font-size:0.8rem; color:#6b7280; }
-.details { display:none; margin-top:15px; border-top:1px solid #333; padding-top:15px; }
-.detail-grid { display:grid; grid-template-columns:1fr 1fr; gap:15px; }
-@media(max-width:700px){ .detail-grid{grid-template-columns:1fr;} }
-.details h4 { margin:10px 0 5px 0; color:var(--gold); }
-.details ul { margin:0; padding-left:18px; color:#d1d5db; font-size:0.9rem; }
-.badge { padding:2px 8px; border-radius:4px; font-weight:bold; margin-left:3px; }
-.badge.W{background:#10b981;color:#000}.badge.D{background:#6b7280;color:#fff}.badge.L{background:#ef4444;color:#fff}
-.muted{color:#6b7280;font-size:0.85rem;}
-.vip-section { background:linear-gradient(135deg,#1a233a,#0f172a); border:2px solid var(--gold); padding:30px; border-radius:12px; text-align:center; margin:20px 0; }
-.btn-pay { display:inline-block; background:var(--gold); color:black; padding:15px 30px; border:none; border-radius:5px; font-weight:bold; font-size:1.1rem; cursor:pointer; margin-top:10px; text-decoration:none; }
-footer { text-align:center; margin-top:50px; color:#6b7280; font-size:0.8rem; padding:20px; border-top:1px solid #333; }
-</style>
+  <!-- ========== GOOGLE SEARCH CONSOLE VERIFICATION ========== -->
+  <meta name="google-site-verification" content="ypINZ4GrFm1e1zLHxMm4IudS9J25H-7TWaYUuA4Hwio" />
+
+  <!-- ========== CORE SEO META TAGS ========== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Best Sports Predictions | Free Football Betting Tips & Value Bets</title>
+  <meta name="description" content="Free AI-powered football predictions, value betting tips, and odds analysis for Premier League, La Liga, Serie A & more. Updated daily.">
+  <meta name="keywords" content="football predictions, soccer betting tips, value bets, odds analysis, Premier League predictions, SportPesa tips, Kenyan betting">
+  <meta name="author" content="TIMIZA">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://worldsbestsportspredictions.netlify.app">
+
+  <!-- ========== OPEN GRAPH (Facebook/WhatsApp Sharing) ========== -->
+  <meta property="og:title" content="World Best Sports Predictions | Free Football Tips">
+  <meta property="og:description" content="Get free AI-powered football predictions and value betting tips. Updated daily for EPL, La Liga, Serie A & more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://worldsbestsportspredictions.netlify.app">
+  <meta property="og:image" content="https://worldsbestsportspredictions.netlify.app/og-image.jpg">
+  <meta property="og:site_name" content="World Best Sports Predictions">
+
+  <!-- ========== TWITTER CARD ========== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="World Best Sports Predictions">
+  <meta name="twitter:description" content="Free football predictions & value betting tips powered by data analysis.">
+  <meta name="twitter:image" content="https://worldsbestsportspredictions.netlify.app/og-image.jpg">
+
+  <!-- ========== STRUCTURED DATA (Schema.org) ========== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "World Best Sports Predictions",
+    "url": "https://worldsbestsportspredictions.netlify.app",
+    "description": "Free AI-powered football predictions and value betting tips",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://worldsbestsportspredictions.netlify.app/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsEvent",
+    "name": "Football Match Predictions",
+    "sport": "Football",
+    "description": "Daily football match predictions with odds analysis and value betting opportunities"
+  }
+  </script>
+
+  <!-- ========== MOBILE & PWA OPTIMIZATION ========== -->
+  <meta name="theme-color" content="#0b0f19">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- ========== PERFORMANCE OPTIMIZATION ========== -->
+  <link rel="preconnect" href="https://cdnjs.buymeacoffee.com">
+  <link rel="dns-prefetch" href="https://worldsbestsportspredictions.netlify.app">
+
+  <!-- ========== EXISTING STYLES (Preserved) ========== -->
+  <style>
+  :root { --bg:#0b0f19; --card:#151a2d; --gold:#d4af37; --text:#f3f4f6; --green:#10b981; }
+  body { font-family:'Segoe UI',Tahoma,sans-serif; background:var(--bg); color:var(--text); margin:0; padding:20px; }
+  .container { max-width:1000px; margin:0 auto; }
+  header { text-align:center; padding:20px 0; border-bottom:2px solid var(--gold); margin-bottom:20px; }
+  h1 { color:var(--gold); font-size:2.2rem; margin:0; letter-spacing:2px; }
+  .btn-telegram { display:inline-block; margin-top:12px; background:#229ED9; color:white; padding:12px 25px; border-radius:5px; text-decoration:none; font-weight:bold; }
+  .tabs { display:flex; gap:10px; margin-bottom:20px; flex-wrap:wrap; }
+  .tab { padding:10px 20px; background:var(--card); border:1px solid #333; cursor:pointer; border-radius:5px; color:white; }
+  .tab.active { background:var(--gold); color:black; font-weight:bold; }
+  .match-card { background:var(--card); padding:20px; border-radius:8px; margin-bottom:15px; border-left:4px solid var(--gold); }
+  .top-row { display:flex; justify-content:space-between; align-items:center; cursor:pointer; }
+  .match-info h3 { margin:0 0 5px 0; }
+  .match-info p { margin:0; color:#9ca3af; font-size:0.9rem; }
+  .prediction { font-weight:bold; color:var(--green); font-size:1.2rem; text-align:right; }
+  .arrow { font-size:0.8rem; color:#6b7280; }
+  .details { display:none; margin-top:15px; border-top:1px solid #333; padding-top:15px; }
+  .detail-grid { display:grid; grid-template-columns:1fr 1fr; gap:15px; }
+  @media(max-width:700px){ .detail-grid{grid-template-columns:1fr;} }
+  .details h4 { margin:10px 0 5px 0; color:var(--gold); }
+  .details ul { margin:0; padding-left:18px; color:#d1d5db; font-size:0.9rem; }
+  .badge { padding:2px 8px; border-radius:4px; font-weight:bold; margin-left:3px; }
+  .badge.W{background:#10b981;color:#000}.badge.D{background:#6b7280;color:#fff}.badge.L{background:#ef4444;color:#fff}
+  .muted{color:#6b7280;font-size:0.85rem;}
+  .vip-section { background:linear-gradient(135deg,#1a233a,#0f172a); border:2px solid var(--gold); padding:30px; border-radius:12px; text-align:center; margin:20px 0; }
+  .btn-pay { display:inline-block; background:var(--gold); color:black; padding:15px 30px; border:none; border-radius:5px; font-weight:bold; font-size:1.1rem; cursor:pointer; margin-top:10px; text-decoration:none; }
+  footer { text-align:center; margin-top:50px; color:#6b7280; font-size:0.8rem; padding:20px; border-top:1px solid #333; }
+  </style>
 </head>
 <body>
 <div class="container">
-<header>
-<h1>WORLD BEST SPORTS PREDICTIONS</h1>
-<p>Data-Driven Analytics & Premium VIP Insights</p>
-<a class="btn-telegram" href="https://t.me/worldsbestsportspredictionsBot" target="_blank">🤖 Get Daily Picks on Telegram</a>
-</header>
 
-<div class="tabs">
-<div class="tab active" onclick="showTab('today')">Today</div>
-<div class="tab" onclick="showTab('upcoming')">Next 5 Days</div>
-<div class="tab" onclick="showTab('yesterday')">Yesterday Results</div>
-<div class="tab" onclick="showTab('vip')" style="margin-left:auto; background:var(--gold); color:black;">👑 VIP Access</div>
+  <!-- ========== HEADER ========== -->
+  <header>
+    <h1>WORLD BEST SPORTS PREDICTIONS</h1>
+    <p>Data-Driven Analytics & Premium VIP Insights</p>
+    <a class="btn-telegram" href="https://t.me/worldsbestsportspredictionsBot" target="_blank">🤖 Get Daily Picks on Telegram</a>
+  </header>
+
+  <!-- ========== TABS ========== -->
+  <div class="tabs">
+    <div class="tab active" onclick="showTab('today')">Today</div>
+    <div class="tab" onclick="showTab('upcoming')">Next 5 Days</div>
+    <div class="tab" onclick="showTab('yesterday')">Yesterday Results</div>
+    <div class="tab" onclick="showTab('vip')" style="margin-left:auto; background:var(--gold); color:black;">👑 VIP Access</div>
+  </div>
+
+  <!-- ========== PREDICTIONS CONTAINER ========== -->
+  <div id="predictions-container">Loading predictions...</div>
+
+  <!-- ========== VIP SECTION (Hidden by Default) ========== -->
+  <div id="vip-section" style="display:none;">
+    <div class="vip-section">
+      <h2>👑 STANDARD VIP (KES 500)</h2>
+      <p>Daily high-confidence match analysis + private VIP channel.</p>
+      <a class="btn-pay" href="https://selar.com/9m75rf1u40" target="_blank">Pay KES 500 via M-Pesa</a>
+    </div>
+    <div class="vip-section">
+      <h2>🏆 JACKPOT VIP (KES 1,000)</h2>
+      <p>Exclusive 17-game jackpot analysis for all Kenyan markets.</p>
+      <a class="btn-pay" href="https://selar.com/87s04q9q81" target="_blank">Pay KES 1,000 via M-Pesa</a>
+    </div>
+    <div class="vip-section">
+      <h2>🤖 Telegram Bot</h2>
+      <p>Chat with our bot for instant VIP access links.</p>
+      <a class="btn-pay" style="background:#229ED9; color:white;" href="https://t.me/worldsbestsportspredictionsBot" target="_blank">Open Telegram Bot</a>
+    </div>
+  </div>
+
+  <!-- ========== ABOUT & METHODOLOGY (SEO Content) ========== -->
+  <section style="max-width:800px; margin:40px auto; padding:20px; line-height:1.6; background:var(--card); border-radius:8px;">
+    <h2 style="color:var(--gold); margin-bottom:15px;">🔍 How We Generate Predictions</h2>
+    <p style="color:#ccc;">
+      Our predictions use statistical analysis of bookmaker odds, team form, and value betting principles. 
+      We calculate <strong>true probabilities</strong> by removing bookmaker margin (vig) from odds, 
+      then identify matches where our model's probability exceeds the market price.
+    </p>
+    <p style="color:#ccc; margin-top:15px;">
+      <strong>Value Bet Formula:</strong><br>
+      <code style="background:#2a2a4a; padding:3px 8px; border-radius:4px;">
+        Value = (True Probability × Bookmaker Odds) − 1
+      </code><br>
+      We only highlight bets where Value ≥ 0.025 (2.5%+ edge).
+    </p>
+    <p style="color:#aaa; font-size:14px; margin-top:20px;">
+      ⚠️ Predictions are probabilistic, not guarantees. Past performance ≠ future results.
+    </p>
+  </section>
+
+  <!-- ========== FAQ (SEO Keywords) ========== -->
+  <section style="max-width:800px; margin:40px auto; padding:20px; line-height:1.6; background:var(--card); border-radius:8px;">
+    <h2 style="color:var(--gold); margin-bottom:15px;">❓ Frequently Asked Questions</h2>
+    
+    <details style="margin:15px 0; color:#ccc;">
+      <summary style="cursor:pointer; font-weight:500;">Are these predictions guaranteed to win?</summary>
+      <p style="margin-top:10px; color:#aaa;">No. Football has high variance. Even 70% probability means 30% chance of loss. We focus on long-term value, not short-term wins.</p>
+    </details>
+    
+    <details style="margin:15px 0; color:#ccc;">
+      <summary style="cursor:pointer; font-weight:500;">Which bookmakers do you analyze?</summary>
+      <p style="margin-top:10px; color:#aaa;">We primarily use Bet365 odds as a baseline, but value calculations apply to any bookmaker. Always compare live odds before betting.</p>
+    </details>
+    
+    <details style="margin:15px 0; color:#ccc;">
+      <summary style="cursor:pointer; font-weight:500;">Is this legal in Kenya?</summary>
+      <p style="margin-top:10px; color:#aaa;">Providing predictions is legal. Betting is legal for 18+ with licensed operators (SportPesa, Betika, etc.). Always gamble responsibly.</p>
+    </details>
+  </section>
+
+  <!-- ========== FOOTER WITH DISCLAIMER ========== -->
+  <footer>
+    <p><strong>⚠️ Disclaimer:</strong> Predictions are for entertainment only. Betting involves risk. 18+ only. Gamble responsibly.</p>
+    <p style="margin-top:10px;">
+      <a href="/terms" style="color:#4da6ff;">Terms</a> | 
+      <a href="/privacy" style="color:#4da6ff;">Privacy</a> | 
+      <a href="/contact" style="color:#4da6ff;">Contact</a>
+    </p>
+    <p style="margin-top:10px; font-size:12px; color:#888;">
+      &copy; 2026 World Best Sports Predictions. Not affiliated with SportPesa, Betika, or any bookmaker.
+    </p>
+  </footer>
+
 </div>
 
-<div id="predictions-container">Loading predictions...</div>
-
-<div id="vip-section" style="display:none;">
-<div class="vip-section">
-<h2>👑 STANDARD VIP (KES 500)</h2>
-<p>Daily high-confidence match analysis + private VIP channel.</p>
-<a class="btn-pay" href="https://selar.com/9m75rf1u40" target="_blank">Pay KES 500 via M-Pesa</a>
-</div>
-<div class="vip-section">
-<h2>🏆 JACKPOT VIP (KES 1,000)</h2>
-<p>Exclusive 17-game jackpot analysis for all Kenyan markets.</p>
-<a class="btn-pay" href="https://selar.com/87s04q9q81" target="_blank">Pay KES 1,000 via M-Pesa</a>
-</div>
-<div class="vip-section">
-<h2>🤖 Telegram Bot</h2>
-<p>Chat with our bot for instant VIP access links.</p>
-<a class="btn-pay" style="background:#229ED9; color:white;" href="https://t.me/worldsbestsportspredictionsBot" target="_blank">Open Telegram Bot</a>
-</div>
-</div>
-
-<footer>
-<p><strong>18+ Only.</strong> All content is for educational and entertainment purposes only. We provide statistical sports analysis and data insights. We do not accept bets or facilitate gambling.</p>
-</footer>
-</div>
-
+<!-- ========== BUY ME A COFFEE WIDGET ========== -->
 <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="thesportspredictions" data-description="Support the analytics!" data-color="#FFDD00" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 
+<!-- ========== EXISTING JAVASCRIPT (Preserved) ========== -->
 <script>
 let DATA = {yesterday: [], today: [], upcoming: []};
 let currentTab = 'today';
@@ -118,5 +237,17 @@ ${h2hList(m.h2h)}
 
 loadPredictions();
 </script>
+
+<!-- ========== OPTIONAL: GOOGLE ANALYTICS (Uncomment & Replace ID) ========== -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+-->
+
 </body>
 </html>
