@@ -28,7 +28,7 @@
   <meta name="twitter:description" content="Free football predictions & value betting tips powered by data analysis.">
   <meta name="twitter:image" content="https://worldsbestsportspredictions.netlify.app/og-image.jpg">
 
-  <!-- ========== STRUCTURED DATA (Schema.org) ========== -->
+  <!-- ========== STRUCTURED DATA (ONLY WEBSITE SCHEMA - FIXED ERROR) ========== -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -41,15 +41,6 @@
       "target": "https://worldsbestsportspredictions.netlify.app/?s={search_term_string}",
       "query-input": "required name=search_term_string"
     }
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SportsEvent",
-    "name": "Football Match Predictions",
-    "sport": "Football",
-    "description": "Daily football match predictions with odds analysis and value betting opportunities"
   }
   </script>
 
@@ -110,7 +101,7 @@
     <div class="tab active" onclick="showTab('today')">Today</div>
     <div class="tab" onclick="showTab('upcoming')">Next 5 Days</div>
     <div class="tab" onclick="showTab('yesterday')">Yesterday Results</div>
-    <div class="tab" onclick="showTab('vip')" style="margin-left:auto; background:var(--gold); color:black;">👑 VIP Access</div>
+    <div class="tab" onclick="showTab('vip')" style="margin-left:auto; background:var(--gold); color:black;"> VIP Access</div>
   </div>
 
   <!-- ========== PREDICTIONS CONTAINER ========== -->
@@ -124,12 +115,12 @@
       <a class="btn-pay" href="https://selar.com/9m75rf1u40" target="_blank">Pay KES 500 via M-Pesa</a>
     </div>
     <div class="vip-section">
-      <h2>🏆 JACKPOT VIP (KES 1,000)</h2>
+      <h2> JACKPOT VIP (KES 1,000)</h2>
       <p>Exclusive 17-game jackpot analysis for all Kenyan markets.</p>
       <a class="btn-pay" href="https://selar.com/87s04q9q81" target="_blank">Pay KES 1,000 via M-Pesa</a>
     </div>
     <div class="vip-section">
-      <h2>🤖 Telegram Bot</h2>
+      <h2> Telegram Bot</h2>
       <p>Chat with our bot for instant VIP access links.</p>
       <a class="btn-pay" style="background:#229ED9; color:white;" href="https://t.me/worldsbestsportspredictionsBot" target="_blank">Open Telegram Bot</a>
     </div>
@@ -151,7 +142,7 @@
       We only highlight bets where Value ≥ 0.025 (2.5%+ edge).
     </p>
     <p style="color:#aaa; font-size:14px; margin-top:20px;">
-      ⚠️ Predictions are probabilistic, not guarantees. Past performance ≠ future results.
+      ️ Predictions are probabilistic, not guarantees. Past performance ≠ future results.
     </p>
   </section>
 
@@ -229,7 +220,7 @@ container.innerHTML=matches.map((m,i)=>`
 <div><h4>${m.home} — Form ${badges(m.home_form)}</h4>${lastList(m.home_last)}</div>
 <div><h4>${m.away} — Form ${badges(m.away_form)}</h4>${lastList(m.away_last)}</div>
 </div>
-<h4>⚔️ Head-to-Head (last meetings)</h4>
+<h4>️ Head-to-Head (last meetings)</h4>
 ${h2hList(m.h2h)}
 </div>
 </div>`).join('');
@@ -237,17 +228,6 @@ ${h2hList(m.h2h)}
 
 loadPredictions();
 </script>
-
-<!-- ========== OPTIONAL: GOOGLE ANALYTICS (Uncomment & Replace ID) ========== -->
-<!--
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
-</script>
--->
 
 </body>
 </html>
