@@ -1,112 +1,20 @@
 {
   "yesterday": [
     {
-      "home": "Estudiantes de La Plata",
-      "away": "CR Flamengo",
-      "league": "Copa Libertadores",
+      "home": "Everton FC",
+      "away": "Chelsea FC",
+      "league": "Premier League",
       "prediction": "Over 1.5 Goals",
-      "kickoff": "2026-10-16T00:30:00Z",
-      "time_eat": "03:30",
-      "date_eat": "Fri 16 Oct",
+      "kickoff": "2026-10-17T11:30:00Z",
+      "time_eat": "14:30",
+      "date_eat": "Sat 17 Oct",
       "home_form": "N/A",
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
       "h2h": [],
-      "result": "0-0"
+      "result": "0-2"
     },
-    {
-      "home": "SC Heerenveen",
-      "away": "SBV Excelsior",
-      "league": "Eredivisie",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-16T18:00:00Z",
-      "time_eat": "21:00",
-      "date_eat": "Fri 16 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [],
-      "result": "4-0"
-    },
-    {
-      "home": "Eintracht Frankfurt",
-      "away": "1. FC K\u00f6ln",
-      "league": "Bundesliga",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-16T18:30:00Z",
-      "time_eat": "21:30",
-      "date_eat": "Fri 16 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [],
-      "result": "1-0"
-    },
-    {
-      "home": "Frosinone Calcio",
-      "away": "US Sassuolo Calcio",
-      "league": "Serie A",
-      "prediction": "Over 2.5 Goals",
-      "kickoff": "2026-10-16T18:45:00Z",
-      "time_eat": "21:45",
-      "date_eat": "Fri 16 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [],
-      "result": "4-2"
-    },
-    {
-      "home": "Le Mans FC",
-      "away": "Toulouse FC",
-      "league": "Ligue 1",
-      "prediction": "Over 0.5 First Half",
-      "kickoff": "2026-10-16T18:45:00Z",
-      "time_eat": "21:45",
-      "date_eat": "Fri 16 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [],
-      "result": "0-3"
-    },
-    {
-      "home": "Burnley FC",
-      "away": "Wolverhampton Wanderers FC",
-      "league": "Championship",
-      "prediction": "Away or Draw (X2)",
-      "kickoff": "2026-10-16T19:00:00Z",
-      "time_eat": "22:00",
-      "date_eat": "Fri 16 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [],
-      "result": "1-2"
-    },
-    {
-      "home": "RC Deportivo La Coru\u00f1a",
-      "away": "Levante UD",
-      "league": "Primera Division",
-      "prediction": "Away Win (2)",
-      "kickoff": "2026-10-16T19:00:00Z",
-      "time_eat": "22:00",
-      "date_eat": "Fri 16 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [],
-      "result": "1-1"
-    }
-  ],
-  "today": [
     {
       "home": "Millwall FC",
       "away": "Lincoln City FC",
@@ -119,7 +27,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "2-2"
     },
     {
       "home": "Middlesbrough FC",
@@ -133,83 +42,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": [
-        {
-          "date": "2025-01-04",
-          "home": "Middlesbrough FC",
-          "away": "Cardiff City FC",
-          "score": "1-1"
-        },
-        {
-          "date": "2024-08-31",
-          "home": "Cardiff City FC",
-          "away": "Middlesbrough FC",
-          "score": "0-2"
-        },
-        {
-          "date": "2024-04-27",
-          "home": "Cardiff City FC",
-          "away": "Middlesbrough FC",
-          "score": "1-4"
-        },
-        {
-          "date": "2023-10-03",
-          "home": "Middlesbrough FC",
-          "away": "Cardiff City FC",
-          "score": "2-0"
-        },
-        {
-          "date": "2023-02-11",
-          "home": "Cardiff City FC",
-          "away": "Middlesbrough FC",
-          "score": "1-3"
-        }
-      ]
-    },
-    {
-      "home": "Everton FC",
-      "away": "Chelsea FC",
-      "league": "Premier League",
-      "prediction": "Over 1.5 Goals",
-      "kickoff": "2026-10-17T11:30:00Z",
-      "time_eat": "14:30",
-      "date_eat": "Sat 17 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [
-        {
-          "date": "2026-03-21",
-          "home": "Everton FC",
-          "away": "Chelsea FC",
-          "score": "3-0"
-        },
-        {
-          "date": "2025-12-13",
-          "home": "Chelsea FC",
-          "away": "Everton FC",
-          "score": "2-0"
-        },
-        {
-          "date": "2025-04-26",
-          "home": "Chelsea FC",
-          "away": "Everton FC",
-          "score": "1-0"
-        },
-        {
-          "date": "2024-12-22",
-          "home": "Everton FC",
-          "away": "Chelsea FC",
-          "score": "0-0"
-        },
-        {
-          "date": "2024-04-15",
-          "home": "Chelsea FC",
-          "away": "Everton FC",
-          "score": "6-0"
-        }
-      ]
+      "h2h": [],
+      "result": "2-2"
     },
     {
       "home": "Watford FC",
@@ -223,20 +57,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": [
-        {
-          "date": "2026-04-06",
-          "home": "Watford FC",
-          "away": "Charlton Athletic FC",
-          "score": "1-1"
-        },
-        {
-          "date": "2025-08-09",
-          "home": "Charlton Athletic FC",
-          "away": "Watford FC",
-          "score": "1-0"
-        }
-      ]
+      "h2h": [],
+      "result": "2-0"
     },
     {
       "home": "RCD Espanyol de Barcelona",
@@ -250,38 +72,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": [
-        {
-          "date": "2026-02-21",
-          "home": "Club Atl\u00e9tico de Madrid",
-          "away": "RCD Espanyol de Barcelona",
-          "score": "4-2"
-        },
-        {
-          "date": "2025-08-17",
-          "home": "RCD Espanyol de Barcelona",
-          "away": "Club Atl\u00e9tico de Madrid",
-          "score": "2-1"
-        },
-        {
-          "date": "2025-03-29",
-          "home": "RCD Espanyol de Barcelona",
-          "away": "Club Atl\u00e9tico de Madrid",
-          "score": "1-1"
-        },
-        {
-          "date": "2024-08-28",
-          "home": "Club Atl\u00e9tico de Madrid",
-          "away": "RCD Espanyol de Barcelona",
-          "score": "0-0"
-        },
-        {
-          "date": "2023-05-24",
-          "home": "RCD Espanyol de Barcelona",
-          "away": "Club Atl\u00e9tico de Madrid",
-          "score": "3-3"
-        }
-      ]
+      "h2h": [],
+      "result": "0-1"
     },
     {
       "home": "Venezia FC",
@@ -295,35 +87,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "SV Werder Bremen",
-      "away": "SC Paderborn 07",
-      "league": "Bundesliga",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-17T13:30:00Z",
-      "time_eat": "16:30",
-      "date_eat": "Sat 17 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "FC Schalke 04",
-      "away": "1. FSV Mainz 05",
-      "league": "Bundesliga",
-      "prediction": "Away Win (2)",
-      "kickoff": "2026-10-17T13:30:00Z",
-      "time_eat": "16:30",
-      "date_eat": "Sat 17 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-0"
     },
     {
       "home": "1. FC Union Berlin",
@@ -337,13 +102,14 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "0-0"
     },
     {
-      "home": "SV 07 Elversberg",
-      "away": "FC Augsburg",
+      "home": "SV Werder Bremen",
+      "away": "SC Paderborn 07",
       "league": "Bundesliga",
-      "prediction": "Away Win (2)",
+      "prediction": "Home Win (1)",
       "kickoff": "2026-10-17T13:30:00Z",
       "time_eat": "16:30",
       "date_eat": "Sat 17 Oct",
@@ -351,7 +117,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "2-2"
     },
     {
       "home": "Hamburger SV",
@@ -365,63 +132,38 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-0"
     },
     {
-      "home": "Southampton FC",
-      "away": "Bolton Wanderers FC",
-      "league": "Championship",
+      "home": "FC Schalke 04",
+      "away": "1. FSV Mainz 05",
+      "league": "Bundesliga",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-10-17T13:30:00Z",
+      "time_eat": "16:30",
+      "date_eat": "Sat 17 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "0-1"
+    },
+    {
+      "home": "SV 07 Elversberg",
+      "away": "FC Augsburg",
+      "league": "Bundesliga",
       "prediction": "Home Win (1)",
-      "kickoff": "2026-10-17T14:00:00Z",
-      "time_eat": "17:00",
+      "kickoff": "2026-10-17T13:30:00Z",
+      "time_eat": "16:30",
       "date_eat": "Sat 17 Oct",
       "home_form": "N/A",
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Wrexham AFC",
-      "away": "Preston North End FC",
-      "league": "Championship",
-      "prediction": "Over 0.5 First Half",
-      "kickoff": "2026-10-17T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sat 17 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Fulham FC",
-      "away": "Hull City AFC",
-      "league": "Premier League",
-      "prediction": "Over 0.5 First Half",
-      "kickoff": "2026-10-17T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sat 17 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Derby County FC",
-      "away": "Stoke City FC",
-      "league": "Championship",
-      "prediction": "Away or Draw (X2)",
-      "kickoff": "2026-10-17T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sat 17 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "4-3"
     },
     {
       "home": "Swansea City AFC",
@@ -435,21 +177,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Manchester City FC",
-      "away": "Ipswich Town FC",
-      "league": "Premier League",
-      "prediction": "Over 0.5 First Half",
-      "kickoff": "2026-10-17T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sat 17 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "0-1"
     },
     {
       "home": "Birmingham City FC",
@@ -463,7 +192,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "3-0"
     },
     {
       "home": "Brentford FC",
@@ -477,21 +207,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Bristol City FC",
-      "away": "Sheffield United FC",
-      "league": "Championship",
-      "prediction": "Home or Draw (1X)",
-      "kickoff": "2026-10-17T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sat 17 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-2"
     },
     {
       "home": "Norwich City FC",
@@ -505,7 +222,68 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "0-1"
+    },
+    {
+      "home": "Wrexham AFC",
+      "away": "Preston North End FC",
+      "league": "Championship",
+      "prediction": "Over 0.5 First Half",
+      "kickoff": "2026-10-17T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 17 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "4-1"
+    },
+    {
+      "home": "Derby County FC",
+      "away": "Stoke City FC",
+      "league": "Championship",
+      "prediction": "Away or Draw (X2)",
+      "kickoff": "2026-10-17T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 17 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "0-1"
+    },
+    {
+      "home": "Bristol City FC",
+      "away": "Sheffield United FC",
+      "league": "Championship",
+      "prediction": "Home or Draw (1X)",
+      "kickoff": "2026-10-17T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 17 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "0-1"
+    },
+    {
+      "home": "Manchester City FC",
+      "away": "Ipswich Town FC",
+      "league": "Premier League",
+      "prediction": "Over 0.5 First Half",
+      "kickoff": "2026-10-17T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 17 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "3-2"
     },
     {
       "home": "West Bromwich Albion FC",
@@ -519,7 +297,38 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "3-2"
+    },
+    {
+      "home": "Fulham FC",
+      "away": "Hull City AFC",
+      "league": "Premier League",
+      "prediction": "Over 0.5 First Half",
+      "kickoff": "2026-10-17T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 17 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "1-0"
+    },
+    {
+      "home": "Southampton FC",
+      "away": "Bolton Wanderers FC",
+      "league": "Championship",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-10-17T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sat 17 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "0-0"
     },
     {
       "home": "Villarreal CF",
@@ -533,7 +342,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "0-0"
     },
     {
       "home": "ADO Den Haag",
@@ -547,7 +357,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "2-1"
     },
     {
       "home": "RC Strasbourg Alsace",
@@ -561,7 +372,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-3"
     },
     {
       "home": "Bologna FC 1909",
@@ -575,35 +387,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "FC Bayern M\u00fcnchen",
-      "away": "RB Leipzig",
-      "league": "Bundesliga",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-17T16:30:00Z",
-      "time_eat": "19:30",
-      "date_eat": "Sat 17 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Real Betis Balompi\u00e9",
-      "away": "FC Barcelona",
-      "league": "Primera Division",
-      "prediction": "Away Win (2)",
-      "kickoff": "2026-10-17T16:30:00Z",
-      "time_eat": "19:30",
-      "date_eat": "Sat 17 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-3"
     },
     {
       "home": "Newcastle United FC",
@@ -617,7 +402,38 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "0-1"
+    },
+    {
+      "home": "FC Bayern M\u00fcnchen",
+      "away": "RB Leipzig",
+      "league": "Bundesliga",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-10-17T16:30:00Z",
+      "time_eat": "19:30",
+      "date_eat": "Sat 17 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "6-1"
+    },
+    {
+      "home": "Real Betis Balompi\u00e9",
+      "away": "FC Barcelona",
+      "league": "Primera Division",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-10-17T16:30:00Z",
+      "time_eat": "19:30",
+      "date_eat": "Sat 17 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "2-5"
     },
     {
       "home": "Telstar 1963",
@@ -631,7 +447,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "3-4"
     },
     {
       "home": "Lille OSC",
@@ -645,21 +462,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "AS Roma",
-      "away": "Genoa CFC",
-      "league": "Serie A",
-      "prediction": "Over 2.5 Goals",
-      "kickoff": "2026-10-17T18:45:00Z",
-      "time_eat": "21:45",
-      "date_eat": "Sat 17 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-1"
     },
     {
       "home": "ES Troyes AC",
@@ -673,21 +477,23 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-3"
     },
     {
-      "home": "Valencia CF",
-      "away": "Athletic Club",
-      "league": "Primera Division",
-      "prediction": "Over 1.5 Goals",
-      "kickoff": "2026-10-17T19:00:00Z",
-      "time_eat": "22:00",
+      "home": "AS Roma",
+      "away": "Genoa CFC",
+      "league": "Serie A",
+      "prediction": "Over 2.5 Goals",
+      "kickoff": "2026-10-17T18:45:00Z",
+      "time_eat": "21:45",
       "date_eat": "Sat 17 Oct",
       "home_form": "N/A",
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "2-0"
     },
     {
       "home": "Sparta Rotterdam",
@@ -701,66 +507,26 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "3-2"
+    },
+    {
+      "home": "Valencia CF",
+      "away": "Athletic Club",
+      "league": "Primera Division",
+      "prediction": "Over 1.5 Goals",
+      "kickoff": "2026-10-17T19:00:00Z",
+      "time_eat": "22:00",
+      "date_eat": "Sat 17 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "0-0"
     }
   ],
-  "upcoming": [
-    {
-      "home": "Botafogo FR",
-      "away": "Chapecoense AF",
-      "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-17T21:00:00Z",
-      "time_eat": "00:00",
-      "date_eat": "Sun 18 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "CA Mineiro",
-      "away": "Coritiba FBC",
-      "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-17T21:30:00Z",
-      "time_eat": "00:30",
-      "date_eat": "Sun 18 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "CA Paranaense",
-      "away": "SE Palmeiras",
-      "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Over 2.5 Goals",
-      "kickoff": "2026-10-17T22:30:00Z",
-      "time_eat": "01:30",
-      "date_eat": "Sun 18 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "S\u00e3o Paulo FC",
-      "away": "CR Vasco da Gama",
-      "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-18T00:00:00Z",
-      "time_eat": "03:00",
-      "date_eat": "Sun 18 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
+  "today": [
     {
       "home": "PEC Zwolle",
       "away": "Go Ahead Eagles",
@@ -773,7 +539,38 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-04-05",
+          "home": "Go Ahead Eagles",
+          "away": "PEC Zwolle",
+          "score": "5-0"
+        },
+        {
+          "date": "2025-09-21",
+          "home": "PEC Zwolle",
+          "away": "Go Ahead Eagles",
+          "score": "0-2"
+        },
+        {
+          "date": "2025-05-11",
+          "home": "PEC Zwolle",
+          "away": "Go Ahead Eagles",
+          "score": "1-1"
+        },
+        {
+          "date": "2024-11-03",
+          "home": "Go Ahead Eagles",
+          "away": "PEC Zwolle",
+          "score": "2-2"
+        },
+        {
+          "date": "2024-02-11",
+          "home": "Go Ahead Eagles",
+          "away": "PEC Zwolle",
+          "score": "1-1"
+        }
+      ]
     },
     {
       "home": "Udinese Calcio",
@@ -787,7 +584,38 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-02-08",
+          "home": "US Lecce",
+          "away": "Udinese Calcio",
+          "score": "2-1"
+        },
+        {
+          "date": "2025-10-25",
+          "home": "Udinese Calcio",
+          "away": "US Lecce",
+          "score": "3-2"
+        },
+        {
+          "date": "2025-02-21",
+          "home": "US Lecce",
+          "away": "Udinese Calcio",
+          "score": "0-1"
+        },
+        {
+          "date": "2024-10-05",
+          "home": "Udinese Calcio",
+          "away": "US Lecce",
+          "score": "1-0"
+        },
+        {
+          "date": "2024-05-13",
+          "home": "US Lecce",
+          "away": "Udinese Calcio",
+          "score": "0-2"
+        }
+      ]
     },
     {
       "home": "CA Osasuna",
@@ -815,13 +643,38 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2023-02-25",
+          "home": "AZ",
+          "away": "SC Cambuur-Leeuwarden",
+          "score": "2-1"
+        },
+        {
+          "date": "2022-08-28",
+          "home": "SC Cambuur-Leeuwarden",
+          "away": "AZ",
+          "score": "0-1"
+        },
+        {
+          "date": "2022-01-22",
+          "home": "AZ",
+          "away": "SC Cambuur-Leeuwarden",
+          "score": "0-0"
+        },
+        {
+          "date": "2021-10-03",
+          "home": "SC Cambuur-Leeuwarden",
+          "away": "AZ",
+          "score": "1-3"
+        }
+      ]
     },
     {
-      "home": "ACF Fiorentina",
-      "away": "Como 1907",
-      "league": "Serie A",
-      "prediction": "Over 1.5 Goals",
+      "home": "Brighton &amp; Hove Albion FC",
+      "away": "Crystal Palace FC",
+      "league": "Premier League",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-10-18T13:00:00Z",
       "time_eat": "16:00",
       "date_eat": "Sun 18 Oct",
@@ -829,13 +682,44 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-02-08",
+          "home": "Brighton &amp; Hove Albion FC",
+          "away": "Crystal Palace FC",
+          "score": "0-1"
+        },
+        {
+          "date": "2025-11-09",
+          "home": "Crystal Palace FC",
+          "away": "Brighton &amp; Hove Albion FC",
+          "score": "0-0"
+        },
+        {
+          "date": "2025-04-05",
+          "home": "Crystal Palace FC",
+          "away": "Brighton &amp; Hove Albion FC",
+          "score": "2-1"
+        },
+        {
+          "date": "2024-12-15",
+          "home": "Brighton &amp; Hove Albion FC",
+          "away": "Crystal Palace FC",
+          "score": "1-3"
+        },
+        {
+          "date": "2024-02-03",
+          "home": "Brighton &amp; Hove Albion FC",
+          "away": "Crystal Palace FC",
+          "score": "4-1"
+        }
+      ]
     },
     {
-      "home": "Angers SCO",
-      "away": "Olympique de Marseille",
-      "league": "Ligue 1",
-      "prediction": "Home or Draw (1X)",
+      "home": "Leeds United FC",
+      "away": "Manchester United FC",
+      "league": "Premier League",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-10-18T13:00:00Z",
       "time_eat": "16:00",
       "date_eat": "Sun 18 Oct",
@@ -860,10 +744,10 @@
       "h2h": []
     },
     {
-      "home": "Brighton &amp; Hove Albion FC",
-      "away": "Crystal Palace FC",
-      "league": "Premier League",
-      "prediction": "Over 2.5 Goals",
+      "home": "ACF Fiorentina",
+      "away": "Como 1907",
+      "league": "Serie A",
+      "prediction": "Over 1.5 Goals",
       "kickoff": "2026-10-18T13:00:00Z",
       "time_eat": "16:00",
       "date_eat": "Sun 18 Oct",
@@ -874,10 +758,10 @@
       "h2h": []
     },
     {
-      "home": "Leeds United FC",
-      "away": "Manchester United FC",
-      "league": "Premier League",
-      "prediction": "Away Win (2)",
+      "home": "Angers SCO",
+      "away": "Olympique de Marseille",
+      "league": "Ligue 1",
+      "prediction": "Home or Draw (1X)",
       "kickoff": "2026-10-18T13:00:00Z",
       "time_eat": "16:00",
       "date_eat": "Sun 18 Oct",
@@ -930,10 +814,10 @@
       "h2h": []
     },
     {
-      "home": "Paris FC",
-      "away": "Stade Rennais FC 1901",
+      "home": "Le Havre AC",
+      "away": "AJ Auxerre",
       "league": "Ligue 1",
-      "prediction": "Over 2.5 Goals",
+      "prediction": "BTTS (Yes)",
       "kickoff": "2026-10-18T15:15:00Z",
       "time_eat": "18:15",
       "date_eat": "Sun 18 Oct",
@@ -944,10 +828,10 @@
       "h2h": []
     },
     {
-      "home": "Le Havre AC",
-      "away": "AJ Auxerre",
+      "home": "Paris FC",
+      "away": "Stade Rennais FC 1901",
       "league": "Ligue 1",
-      "prediction": "BTTS (Yes)",
+      "prediction": "Over 2.5 Goals",
       "kickoff": "2026-10-18T15:15:00Z",
       "time_eat": "18:15",
       "date_eat": "Sun 18 Oct",
@@ -972,10 +856,10 @@
       "h2h": []
     },
     {
-      "home": "Nottingham Forest FC",
-      "away": "Arsenal FC",
-      "league": "Premier League",
-      "prediction": "Away or Draw (X2)",
+      "home": "Borussia M\u00f6nchengladbach",
+      "away": "TSG 1899 Hoffenheim",
+      "league": "Bundesliga",
+      "prediction": "Draw (X)",
       "kickoff": "2026-10-18T15:30:00Z",
       "time_eat": "18:30",
       "date_eat": "Sun 18 Oct",
@@ -986,10 +870,10 @@
       "h2h": []
     },
     {
-      "home": "Borussia M\u00f6nchengladbach",
-      "away": "TSG 1899 Hoffenheim",
-      "league": "Bundesliga",
-      "prediction": "Draw (X)",
+      "home": "Nottingham Forest FC",
+      "away": "Arsenal FC",
+      "league": "Premier League",
+      "prediction": "Away or Draw (X2)",
       "kickoff": "2026-10-18T15:30:00Z",
       "time_eat": "18:30",
       "date_eat": "Sun 18 Oct",
@@ -1084,10 +968,10 @@
       "h2h": []
     },
     {
-      "home": "Real Madrid CF",
-      "away": "Sevilla FC",
-      "league": "Primera Division",
-      "prediction": "Over 1.5 Goals",
+      "home": "Gr\u00eamio FBPA",
+      "away": "Cruzeiro EC",
+      "league": "Campeonato Brasileiro S\u00e9rie A",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-10-18T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Sun 18 Oct",
@@ -1098,10 +982,10 @@
       "h2h": []
     },
     {
-      "home": "Gr\u00eamio FBPA",
-      "away": "Cruzeiro EC",
-      "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Away Win (2)",
+      "home": "Real Madrid CF",
+      "away": "Sevilla FC",
+      "league": "Primera Division",
+      "prediction": "Over 1.5 Goals",
       "kickoff": "2026-10-18T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Sun 18 Oct",
@@ -1124,7 +1008,9 @@
       "home_last": [],
       "away_last": [],
       "h2h": []
-    },
+    }
+  ],
+  "upcoming": [
     {
       "home": "EC Bahia",
       "away": "CR Flamengo",
@@ -1182,10 +1068,10 @@
       "h2h": []
     },
     {
-      "home": "Tottenham Hotspur FC",
-      "away": "Coventry City FC",
-      "league": "Premier League",
-      "prediction": "Over 1.5 Goals",
+      "home": "Getafe CF",
+      "away": "Rayo Vallecano de Madrid",
+      "league": "Primera Division",
+      "prediction": "Away or Draw (X2)",
       "kickoff": "2026-10-19T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Mon 19 Oct",
@@ -1196,10 +1082,10 @@
       "h2h": []
     },
     {
-      "home": "Getafe CF",
-      "away": "Rayo Vallecano de Madrid",
-      "league": "Primera Division",
-      "prediction": "Away or Draw (X2)",
+      "home": "Tottenham Hotspur FC",
+      "away": "Coventry City FC",
+      "league": "Premier League",
+      "prediction": "Over 1.5 Goals",
       "kickoff": "2026-10-19T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Mon 19 Oct",
@@ -1280,6 +1166,20 @@
       "h2h": []
     },
     {
+      "home": "Liverpool FC",
+      "away": "Villarreal CF",
+      "league": "UEFA Champions League",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-10-20T19:00:00Z",
+      "time_eat": "22:00",
+      "date_eat": "Tue 20 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
       "home": "FC Porto",
       "away": "PSV",
       "league": "UEFA Champions League",
@@ -1312,20 +1212,6 @@
       "away": "FC Barcelona",
       "league": "UEFA Champions League",
       "prediction": "Over 2.5 Goals",
-      "kickoff": "2026-10-20T19:00:00Z",
-      "time_eat": "22:00",
-      "date_eat": "Tue 20 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Liverpool FC",
-      "away": "Villarreal CF",
-      "league": "UEFA Champions League",
-      "prediction": "Home Win (1)",
       "kickoff": "2026-10-20T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Tue 20 Oct",
@@ -1420,6 +1306,20 @@
       "h2h": []
     },
     {
+      "home": "Club Brugge KV",
+      "away": "Racing Club de Lens",
+      "league": "UEFA Champions League",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-10-21T19:00:00Z",
+      "time_eat": "22:00",
+      "date_eat": "Wed 21 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
       "home": "Sporting Clube de Portugal",
       "away": "LASK Linz",
       "league": "UEFA Champions League",
@@ -1438,20 +1338,6 @@
       "away": "FK Shakhtar Donetsk",
       "league": "UEFA Champions League",
       "prediction": "Away Win (2)",
-      "kickoff": "2026-10-21T19:00:00Z",
-      "time_eat": "22:00",
-      "date_eat": "Wed 21 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Club Brugge KV",
-      "away": "Racing Club de Lens",
-      "league": "UEFA Champions League",
-      "prediction": "Home Win (1)",
       "kickoff": "2026-10-21T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Wed 21 Oct",
@@ -1511,6 +1397,20 @@
       "kickoff": "2026-10-21T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Wed 21 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "SE Palmeiras",
+      "away": "Fluminense FC",
+      "league": "Copa Libertadores",
+      "prediction": "Over 2.5 Goals",
+      "kickoff": "2026-10-22T00:30:00Z",
+      "time_eat": "03:30",
+      "date_eat": "Thu 22 Oct",
       "home_form": "N/A",
       "away_form": "N/A",
       "home_last": [],
