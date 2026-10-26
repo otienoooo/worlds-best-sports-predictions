@@ -1,123 +1,5 @@
 {
-  "yesterday": [],
-  "today": [
-    {
-      "home": "SE Palmeiras",
-      "away": "RB Bragantino",
-      "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-24T21:30:00Z",
-      "time_eat": "00:30",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [
-        {
-          "date": "2026-10-24",
-          "home": "SE Palmeiras",
-          "away": "RB Bragantino",
-          "score": "2-0"
-        },
-        {
-          "date": "2026-04-26",
-          "home": "RB Bragantino",
-          "away": "SE Palmeiras",
-          "score": "0-1"
-        },
-        {
-          "date": "2025-10-15",
-          "home": "SE Palmeiras",
-          "away": "RB Bragantino",
-          "score": "5-1"
-        },
-        {
-          "date": "2025-05-18",
-          "home": "RB Bragantino",
-          "away": "SE Palmeiras",
-          "score": "1-2"
-        },
-        {
-          "date": "2024-10-05",
-          "home": "RB Bragantino",
-          "away": "SE Palmeiras",
-          "score": "0-0"
-        }
-      ]
-    },
-    {
-      "home": "CR Vasco da Gama",
-      "away": "SC Corinthians Paulista",
-      "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-24T21:30:00Z",
-      "time_eat": "00:30",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [
-        {
-          "date": "2026-10-24",
-          "home": "CR Vasco da Gama",
-          "away": "SC Corinthians Paulista",
-          "score": "3-2"
-        },
-        {
-          "date": "2026-04-26",
-          "home": "SC Corinthians Paulista",
-          "away": "CR Vasco da Gama",
-          "score": "1-0"
-        },
-        {
-          "date": "2025-08-24",
-          "home": "CR Vasco da Gama",
-          "away": "SC Corinthians Paulista",
-          "score": "2-3"
-        }
-      ]
-    },
-    {
-      "home": "Chapecoense AF",
-      "away": "Fluminense FC",
-      "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Away Win (2)",
-      "kickoff": "2026-10-24T22:30:00Z",
-      "time_eat": "01:30",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": [
-        {
-          "date": "2026-10-24",
-          "home": "Chapecoense AF",
-          "away": "Fluminense FC",
-          "score": "2-1"
-        },
-        {
-          "date": "2026-04-26",
-          "home": "Fluminense FC",
-          "away": "Chapecoense AF",
-          "score": "2-1"
-        },
-        {
-          "date": "2021-12-10",
-          "home": "Fluminense FC",
-          "away": "Chapecoense AF",
-          "score": "3-0"
-        },
-        {
-          "date": "2021-09-08",
-          "home": "Chapecoense AF",
-          "away": "Fluminense FC",
-          "score": "1-2"
-        }
-      ]
-    },
+  "yesterday": [
     {
       "home": "Santos FC",
       "away": "EC Bahia",
@@ -130,38 +12,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": [
-        {
-          "date": "2026-10-25",
-          "home": "Santos FC",
-          "away": "EC Bahia",
-          "score": "1-1"
-        },
-        {
-          "date": "2026-04-25",
-          "home": "EC Bahia",
-          "away": "Santos FC",
-          "score": "2-2"
-        },
-        {
-          "date": "2025-08-24",
-          "home": "EC Bahia",
-          "away": "Santos FC",
-          "score": "2-0"
-        },
-        {
-          "date": "2025-04-06",
-          "home": "Santos FC",
-          "away": "EC Bahia",
-          "score": "2-2"
-        },
-        {
-          "date": "2023-09-18",
-          "home": "EC Bahia",
-          "away": "Santos FC",
-          "score": "1-2"
-        }
-      ]
+      "h2h": [],
+      "result": "1-1"
     },
     {
       "home": "Fortuna Sittard",
@@ -175,38 +27,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": [
-        {
-          "date": "2026-02-20",
-          "home": "Fortuna Sittard",
-          "away": "SBV Excelsior",
-          "score": "2-1"
-        },
-        {
-          "date": "2025-10-19",
-          "home": "SBV Excelsior",
-          "away": "Fortuna Sittard",
-          "score": "1-0"
-        },
-        {
-          "date": "2024-03-03",
-          "home": "Fortuna Sittard",
-          "away": "SBV Excelsior",
-          "score": "5-2"
-        },
-        {
-          "date": "2023-08-26",
-          "home": "SBV Excelsior",
-          "away": "Fortuna Sittard",
-          "score": "2-2"
-        },
-        {
-          "date": "2023-05-21",
-          "home": "SBV Excelsior",
-          "away": "Fortuna Sittard",
-          "score": "3-0"
-        }
-      ]
+      "h2h": [],
+      "result": "1-0"
     },
     {
       "home": "FC Internazionale Milano",
@@ -220,7 +42,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "2-1"
     },
     {
       "home": "Athletic Club",
@@ -234,21 +57,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "PSV",
-      "away": "Feyenoord Rotterdam",
-      "league": "Eredivisie",
-      "prediction": "Over 2.5 Goals",
-      "kickoff": "2026-10-25T13:30:00Z",
-      "time_eat": "16:30",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "4-0"
     },
     {
       "home": "NEC",
@@ -262,91 +72,23 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "2-2"
     },
     {
-      "home": "Atalanta BC",
-      "away": "Frosinone Calcio",
-      "league": "Serie A",
-      "prediction": "Home or Draw (1X)",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "time_eat": "17:00",
+      "home": "PSV",
+      "away": "Feyenoord Rotterdam",
+      "league": "Eredivisie",
+      "prediction": "Over 2.5 Goals",
+      "kickoff": "2026-10-25T13:30:00Z",
+      "time_eat": "16:30",
       "date_eat": "Sun 25 Oct",
       "home_form": "N/A",
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "AS Monaco FC",
-      "away": "Lille OSC",
-      "league": "Ligue 1",
-      "prediction": "Away Win (2)",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Liverpool FC",
-      "away": "Brighton &amp; Hove Albion FC",
-      "league": "Premier League",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Crystal Palace FC",
-      "away": "Newcastle United FC",
-      "league": "Premier League",
-      "prediction": "Over 0.5 First Half",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Genoa CFC",
-      "away": "Venezia FC",
-      "league": "Serie A",
-      "prediction": "Away or Draw (X2)",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Hull City AFC",
-      "away": "Brentford FC",
-      "league": "Premier League",
-      "prediction": "Over 0.5 First Half",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "time_eat": "17:00",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-1"
     },
     {
       "home": "Manchester United FC",
@@ -360,7 +102,98 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "0-3"
+    },
+    {
+      "home": "Atalanta BC",
+      "away": "Frosinone Calcio",
+      "league": "Serie A",
+      "prediction": "Home or Draw (1X)",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sun 25 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "4-4"
+    },
+    {
+      "home": "Liverpool FC",
+      "away": "Brighton &amp; Hove Albion FC",
+      "league": "Premier League",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sun 25 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "2-0"
+    },
+    {
+      "home": "Genoa CFC",
+      "away": "Venezia FC",
+      "league": "Serie A",
+      "prediction": "Away or Draw (X2)",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sun 25 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "1-0"
+    },
+    {
+      "home": "Hull City AFC",
+      "away": "Brentford FC",
+      "league": "Premier League",
+      "prediction": "Over 0.5 First Half",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sun 25 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "1-1"
+    },
+    {
+      "home": "AS Monaco FC",
+      "away": "Lille OSC",
+      "league": "Ligue 1",
+      "prediction": "Over 2.5 Goals",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sun 25 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "1-1"
+    },
+    {
+      "home": "Crystal Palace FC",
+      "away": "Newcastle United FC",
+      "league": "Premier League",
+      "prediction": "Over 0.5 First Half",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "time_eat": "17:00",
+      "date_eat": "Sun 25 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "0-2"
     },
     {
       "home": "TSG 1899 Hoffenheim",
@@ -374,7 +207,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "3-0"
     },
     {
       "home": "RC Celta de Vigo",
@@ -388,7 +222,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "0-0"
     },
     {
       "home": "GD Estoril Praia",
@@ -402,7 +237,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-3"
     },
     {
       "home": "Sparta Rotterdam",
@@ -416,63 +252,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Toulouse FC",
-      "away": "ES Troyes AC",
-      "league": "Ligue 1",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-25T16:15:00Z",
-      "time_eat": "19:15",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Angers SCO",
-      "away": "FC Lorient",
-      "league": "Ligue 1",
-      "prediction": "Away Win (2)",
-      "kickoff": "2026-10-25T16:15:00Z",
-      "time_eat": "19:15",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Olympique de Marseille",
-      "away": "Le Havre AC",
-      "league": "Ligue 1",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-25T16:15:00Z",
-      "time_eat": "19:15",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "AJ Auxerre",
-      "away": "Le Mans FC",
-      "league": "Ligue 1",
-      "prediction": "Home Win (1)",
-      "kickoff": "2026-10-25T16:15:00Z",
-      "time_eat": "19:15",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-2"
     },
     {
       "home": "Stade Rennais FC 1901",
@@ -486,7 +267,68 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "3-0"
+    },
+    {
+      "home": "Toulouse FC",
+      "away": "ES Troyes AC",
+      "league": "Ligue 1",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-10-25T16:15:00Z",
+      "time_eat": "19:15",
+      "date_eat": "Sun 25 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "0-0"
+    },
+    {
+      "home": "Olympique de Marseille",
+      "away": "Le Havre AC",
+      "league": "Ligue 1",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-10-25T16:15:00Z",
+      "time_eat": "19:15",
+      "date_eat": "Sun 25 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "4-3"
+    },
+    {
+      "home": "Angers SCO",
+      "away": "FC Lorient",
+      "league": "Ligue 1",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-10-25T16:15:00Z",
+      "time_eat": "19:15",
+      "date_eat": "Sun 25 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "0-0"
+    },
+    {
+      "home": "AJ Auxerre",
+      "away": "Le Mans FC",
+      "league": "Ligue 1",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-10-25T16:15:00Z",
+      "time_eat": "19:15",
+      "date_eat": "Sun 25 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "1-1"
     },
     {
       "home": "SC Freiburg",
@@ -500,7 +342,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-3"
     },
     {
       "home": "Sunderland AFC",
@@ -514,7 +357,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "0-0"
     },
     {
       "home": "US Lecce",
@@ -528,7 +372,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "0-2"
     },
     {
       "home": "Real Sociedad de F\u00fatbol",
@@ -542,21 +387,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
-    {
-      "home": "Rio Ave FC",
-      "away": "FC Famalic\u00e3o",
-      "league": "Primeira Liga",
-      "prediction": "Home or Draw (1X)",
-      "kickoff": "2026-10-25T18:00:00Z",
-      "time_eat": "21:00",
-      "date_eat": "Sun 25 Oct",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "2-1"
     },
     {
       "home": "CD Nacional",
@@ -570,13 +402,29 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-0"
+    },
+    {
+      "home": "Rio Ave FC",
+      "away": "FC Famalic\u00e3o",
+      "league": "Primeira Liga",
+      "prediction": "Home or Draw (1X)",
+      "kickoff": "2026-10-25T18:00:00Z",
+      "time_eat": "21:00",
+      "date_eat": "Sun 25 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": [],
+      "result": "0-4"
     },
     {
       "home": "AZ",
       "away": "FC Twente &#x27;65",
       "league": "Eredivisie",
-      "prediction": "Home Win (1)",
+      "prediction": "Draw (X)",
       "kickoff": "2026-10-25T19:00:00Z",
       "time_eat": "22:00",
       "date_eat": "Sun 25 Oct",
@@ -584,7 +432,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "0-2"
     },
     {
       "home": "Udinese Calcio",
@@ -598,7 +447,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "0-2"
     },
     {
       "home": "FC Barcelona",
@@ -612,7 +462,8 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-2"
     },
     {
       "home": "Sporting Clube de Portugal",
@@ -626,10 +477,11 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [],
+      "result": "1-2"
     }
   ],
-  "upcoming": [
+  "today": [
     {
       "home": "CD Santa Clara",
       "away": "Sport Lisboa e Benfica",
@@ -642,13 +494,38 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-02-13",
+          "home": "CD Santa Clara",
+          "away": "Sport Lisboa e Benfica",
+          "score": "1-2"
+        },
+        {
+          "date": "2025-09-12",
+          "home": "Sport Lisboa e Benfica",
+          "away": "CD Santa Clara",
+          "score": "1-1"
+        },
+        {
+          "date": "2025-02-15",
+          "home": "CD Santa Clara",
+          "away": "Sport Lisboa e Benfica",
+          "score": "0-1"
+        },
+        {
+          "date": "2024-09-14",
+          "home": "Sport Lisboa e Benfica",
+          "away": "CD Santa Clara",
+          "score": "4-1"
+        }
+      ]
     },
     {
       "home": "Paris Saint-Germain FC",
       "away": "Olympique Lyonnais",
       "league": "Ligue 1",
-      "prediction": "Over 2.5 Goals",
+      "prediction": "Draw (X)",
       "kickoff": "2026-10-26T19:30:00Z",
       "time_eat": "22:30",
       "date_eat": "Mon 26 Oct",
@@ -656,7 +533,32 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2026-04-19",
+          "home": "Paris Saint-Germain FC",
+          "away": "Olympique Lyonnais",
+          "score": "1-2"
+        },
+        {
+          "date": "2025-11-09",
+          "home": "Olympique Lyonnais",
+          "away": "Paris Saint-Germain FC",
+          "score": "2-3"
+        },
+        {
+          "date": "2025-02-23",
+          "home": "Olympique Lyonnais",
+          "away": "Paris Saint-Germain FC",
+          "score": "2-3"
+        },
+        {
+          "date": "2024-12-15",
+          "home": "Paris Saint-Germain FC",
+          "away": "Olympique Lyonnais",
+          "score": "3-1"
+        }
+      ]
     },
     {
       "home": "Sevilla FC",
@@ -670,8 +572,41 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
+      "h2h": [
+        {
+          "date": "2026-04-26",
+          "home": "CA Osasuna",
+          "away": "Sevilla FC",
+          "score": "2-1"
+        },
+        {
+          "date": "2025-11-08",
+          "home": "Sevilla FC",
+          "away": "CA Osasuna",
+          "score": "1-0"
+        },
+        {
+          "date": "2025-04-24",
+          "home": "CA Osasuna",
+          "away": "Sevilla FC",
+          "score": "1-0"
+        },
+        {
+          "date": "2024-12-02",
+          "home": "Sevilla FC",
+          "away": "CA Osasuna",
+          "score": "1-1"
+        },
+        {
+          "date": "2024-01-28",
+          "home": "Sevilla FC",
+          "away": "CA Osasuna",
+          "score": "1-1"
+        }
+      ]
+    }
+  ],
+  "upcoming": [
     {
       "home": "Coritiba FBC",
       "away": "Gr\u00eamio FBPA",
@@ -715,10 +650,10 @@
       "h2h": []
     },
     {
-      "home": "Torino FC",
-      "away": "Como 1907",
+      "home": "AS Roma",
+      "away": "Cagliari Calcio",
       "league": "Serie A",
-      "prediction": "Away Win (2)",
+      "prediction": "Over 0.5 First Half",
       "kickoff": "2026-10-27T19:45:00Z",
       "time_eat": "22:45",
       "date_eat": "Tue 27 Oct",
@@ -729,10 +664,10 @@
       "h2h": []
     },
     {
-      "home": "AS Roma",
-      "away": "Cagliari Calcio",
+      "home": "Torino FC",
+      "away": "Como 1907",
       "league": "Serie A",
-      "prediction": "Over 0.5 First Half",
+      "prediction": "Away Win (2)",
       "kickoff": "2026-10-27T19:45:00Z",
       "time_eat": "22:45",
       "date_eat": "Tue 27 Oct",
@@ -785,8 +720,8 @@
       "h2h": []
     },
     {
-      "home": "Genoa CFC",
-      "away": "Juventus FC",
+      "home": "AC Monza",
+      "away": "SSC Napoli",
       "league": "Serie A",
       "prediction": "BTTS (Yes)",
       "kickoff": "2026-10-28T19:45:00Z",
@@ -799,8 +734,8 @@
       "h2h": []
     },
     {
-      "home": "AC Monza",
-      "away": "SSC Napoli",
+      "home": "Genoa CFC",
+      "away": "Juventus FC",
       "league": "Serie A",
       "prediction": "BTTS (Yes)",
       "kickoff": "2026-10-28T19:45:00Z",
@@ -932,6 +867,118 @@
       "kickoff": "2026-10-29T23:00:00Z",
       "time_eat": "02:00",
       "date_eat": "Fri 30 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Gr\u00eamio FBPA",
+      "away": "CA Paranaense",
+      "league": "Campeonato Brasileiro S\u00e9rie A",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-10-30T00:30:00Z",
+      "time_eat": "03:30",
+      "date_eat": "Fri 30 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Le Havre AC",
+      "away": "Paris Saint-Germain FC",
+      "league": "Ligue 1",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-10-30T18:00:00Z",
+      "time_eat": "21:00",
+      "date_eat": "Fri 30 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "SV 07 Elversberg",
+      "away": "1. FSV Mainz 05",
+      "league": "Bundesliga",
+      "prediction": "Draw (X)",
+      "kickoff": "2026-10-30T19:30:00Z",
+      "time_eat": "22:30",
+      "date_eat": "Fri 30 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Villarreal CF",
+      "away": "RCD Espanyol de Barcelona",
+      "league": "Primera Division",
+      "prediction": "Over 1.5 Goals",
+      "kickoff": "2026-10-30T20:00:00Z",
+      "time_eat": "23:00",
+      "date_eat": "Fri 30 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Sheffield United FC",
+      "away": "Wrexham AFC",
+      "league": "Championship",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-10-30T20:00:00Z",
+      "time_eat": "23:00",
+      "date_eat": "Fri 30 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Lille OSC",
+      "away": "Racing Club de Lens",
+      "league": "Ligue 1",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-10-30T20:05:00Z",
+      "time_eat": "23:05",
+      "date_eat": "Fri 30 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Casa Pia AC",
+      "away": "Sporting Clube de Portugal",
+      "league": "Primeira Liga",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-10-30T20:15:00Z",
+      "time_eat": "23:15",
+      "date_eat": "Fri 30 Oct",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "SC Corinthians Paulista",
+      "away": "Mirassol FC",
+      "league": "Campeonato Brasileiro S\u00e9rie A",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-10-30T23:00:00Z",
+      "time_eat": "02:00",
+      "date_eat": "Sat 31 Oct",
       "home_form": "N/A",
       "away_form": "N/A",
       "home_last": [],
