@@ -29,6 +29,62 @@
       "home_last": [],
       "away_last": [],
       "h2h": []
+    },
+    {
+      "home": "Coritiba FBC",
+      "away": "Santos FC",
+      "league": "Campeonato Brasileiro S\u00e9rie A",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-11-18T22:30:00Z",
+      "time_eat": "01:30",
+      "date_eat": "Thu 19 Nov",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Clube do Remo",
+      "away": "Chapecoense AF",
+      "league": "Campeonato Brasileiro S\u00e9rie A",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-11-18T23:00:00Z",
+      "time_eat": "02:00",
+      "date_eat": "Thu 19 Nov",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Cruzeiro EC",
+      "away": "SE Palmeiras",
+      "league": "Campeonato Brasileiro S\u00e9rie A",
+      "prediction": "Over 2.5 Goals",
+      "kickoff": "2026-11-18T23:30:00Z",
+      "time_eat": "02:30",
+      "date_eat": "Thu 19 Nov",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "CR Flamengo",
+      "away": "CA Paranaense",
+      "league": "Campeonato Brasileiro S\u00e9rie A",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-11-18T23:30:00Z",
+      "time_eat": "02:30",
+      "date_eat": "Thu 19 Nov",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
     }
   ]
 }
