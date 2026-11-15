@@ -1,21 +1,6 @@
 {
   "yesterday": [],
-  "today": [],
-  "upcoming": [
-    {
-      "home": "Mirassol FC",
-      "away": "CA Mineiro",
-      "league": "Campeonato Brasileiro S\u00e9rie A",
-      "prediction": "Away Win (2)",
-      "kickoff": "2026-11-14T21:30:00Z",
-      "time_eat": "00:30",
-      "date_eat": "Sun 15 Nov",
-      "home_form": "N/A",
-      "away_form": "N/A",
-      "home_last": [],
-      "away_last": [],
-      "h2h": []
-    },
+  "today": [
     {
       "home": "Chapecoense AF",
       "away": "CR Vasco da Gama",
@@ -28,8 +13,23 @@
       "away_form": "N/A",
       "home_last": [],
       "away_last": [],
-      "h2h": []
-    },
+      "h2h": [
+        {
+          "date": "2026-11-14",
+          "home": "Chapecoense AF",
+          "away": "CR Vasco da Gama",
+          "score": "0-2"
+        },
+        {
+          "date": "2026-02-05",
+          "home": "CR Vasco da Gama",
+          "away": "Chapecoense AF",
+          "score": "1-1"
+        }
+      ]
+    }
+  ],
+  "upcoming": [
     {
       "home": "Coritiba FBC",
       "away": "Santos FC",
@@ -80,6 +80,62 @@
       "kickoff": "2026-11-18T23:30:00Z",
       "time_eat": "02:30",
       "date_eat": "Thu 19 Nov",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "Gr\u00eamio FBPA",
+      "away": "EC Bahia",
+      "league": "Campeonato Brasileiro S\u00e9rie A",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-11-19T00:30:00Z",
+      "time_eat": "03:30",
+      "date_eat": "Thu 19 Nov",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "SC Corinthians Paulista",
+      "away": "Botafogo FR",
+      "league": "Campeonato Brasileiro S\u00e9rie A",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-11-19T00:30:00Z",
+      "time_eat": "03:30",
+      "date_eat": "Thu 19 Nov",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "EC Vit\u00f3ria",
+      "away": "RB Bragantino",
+      "league": "Campeonato Brasileiro S\u00e9rie A",
+      "prediction": "Away Win (2)",
+      "kickoff": "2026-11-19T22:30:00Z",
+      "time_eat": "01:30",
+      "date_eat": "Fri 20 Nov",
+      "home_form": "N/A",
+      "away_form": "N/A",
+      "home_last": [],
+      "away_last": [],
+      "h2h": []
+    },
+    {
+      "home": "CR Vasco da Gama",
+      "away": "SC Internacional",
+      "league": "Campeonato Brasileiro S\u00e9rie A",
+      "prediction": "Home Win (1)",
+      "kickoff": "2026-11-19T22:30:00Z",
+      "time_eat": "01:30",
+      "date_eat": "Fri 20 Nov",
       "home_form": "N/A",
       "away_form": "N/A",
       "home_last": [],
